@@ -1,0 +1,33 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "hyatt",
+    "items": {
+        "includes": [
+            {
+                "name": "hyattplaceholdersettings",
+                "path": "/sitecore/layout/Placeholder Settings/Project/HyattXM",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "hyattrenderings",
+                "path": "/sitecore/layout/Renderings/Project/HyattXM",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "hyatttemplates",
+                "path": "/sitecore/templates/Project/HyattXM",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "hyattcontentroot",
+                "path": "/sitecore/content/HyattXM",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "hyattmedia",
+                "path": "/sitecore/media library/Project/HyattXM",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            }
+        ]
+    }
+}

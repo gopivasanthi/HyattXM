@@ -1,0 +1,31 @@
+﻿---
+ID: "761a9bd1-cb12-4bc8-84bd-5e0a4d902f5f"
+Parent: "91b25e90-7f33-4ced-afbd-e754f1b052e1"
+Template: "91b25e90-7f33-4ced-afbd-e754f1b052e1"
+Path: /sitecore/templates/Project/HyattXM/JSS Settings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240612T015500Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\QsjQVPwHJR
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\QsjQVPwHJR
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "65d7ad36-3ac3-48b4-9d69-9540dca3c4fe"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\QsjQVPwHJR
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240612T015500Z

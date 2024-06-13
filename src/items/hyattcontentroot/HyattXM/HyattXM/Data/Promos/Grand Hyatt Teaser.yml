@@ -1,0 +1,50 @@
+﻿---
+ID: "ac71d724-c0cb-45da-ad5e-711e1c18ddb7"
+Parent: "b332aebd-8c4c-4cca-9750-8e30158c0b47"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Promos/Grand Hyatt Teaser
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f66862d-a5e3-405f-8e3e-b787b4c39b12"
+      Hint: PromoText2
+      Value: Exemplifying the spirit of today while embracing the grand vision of tomorrow, experience the epitome of sophistication and immerse yourself in a world where exceptional service meets extraordinary design.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240612T021108Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: <p>Grand Hyatt</p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\QsjQVPwHJR
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\QsjQVPwHJR
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "36c8cbe7-b1ba-4130-8a8d-7a136f5f6615"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\QsjQVPwHJR
+    - ID: "c6e604c3-5371-4e67-83df-a09a5ea66249"
+      Hint: PromoText3
+      Value: |
+        <p>Grand Hyatt Gurgaon, a multidimensional luxury destination, is situated in the vibrant heart of Gurgaon, the commercial hub of Delhi NCR. This magnificent 29-acre development includes a high-street shopping centre and an impressive office tower seamlessly integrated into the property.</p>
+        <br />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240612T023015Z
+    - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
+      Hint: PromoLink
+      Value: |
+        <link url="https://www.hyatt.com/grand-hyatt/en-US/grggh-grand-hyatt-gurgaon" text="Grand Hyatt" title="" target="" linktype="external"/>
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="{76EB033E-780D-45F5-BF48-E447204B88FA}" alt="Grand" height="" width="" hspace="" vspace="" />

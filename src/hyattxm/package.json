@@ -1,10 +1,10 @@
 {
-  "name": "Hyatt",
+  "name": "hyattxm",
   "description": "Application utilizing Sitecore JavaScript Services and Next.js",
   "version": "22.0.0",
   "private": true,
   "config": {
-    "appName": "Hyatt",
+    "appName": "hyattxm",
     "rootPlaceholders": [
       "jss-main"
     ],

@@ -1,0 +1,35 @@
+﻿---
+ID: "2a2879ce-326d-4113-891e-02111b5b0e45"
+Parent: "6780143d-7db7-45d2-9df9-acedf46e095d"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Texts/Grand Hyatt Sub Title
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240612T021232Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\QsjQVPwHJR
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\QsjQVPwHJR
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2 class="sc-59805afe-1 fUoIjC be-headline-standard-2 be-headline-on-dark sc-26a4db9a-4 hfpzzn" data-locator="leadin-container-title" style="color: var(--bellhop-color-headline-on-dark); background-color: #820d17; margin: 0px; padding: 0px; letter-spacing: 3px; line-height: 1.2;">STAY AT OUR LUXURY HOTEL IN THE HEART OF GURGAON</h2>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d820ed7a-20b3-4cb0-a202-a3b00a1d3fc7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\QsjQVPwHJR
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240612T021323Z
