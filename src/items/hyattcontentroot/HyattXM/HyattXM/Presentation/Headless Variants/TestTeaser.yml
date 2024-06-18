@@ -1,0 +1,39 @@
+﻿---
+ID: "1e51c151-a049-4d12-8a6d-fa45e4f73d7f"
+Parent: "2c0e744d-7cdd-4347-8df8-e065f8ab86ab"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/content/HyattXM/HyattXM/Presentation/Headless Variants/TestTeaser
+BranchID: "8f80ce7b-5b8b-463a-9f91-abb15755749b"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/window_dialog.png
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EB2F5503-281A-4CAF-8195-37DE0626D348}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240613T181256Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4504713e-1e3b-46c6-94cd-f8a0e9145539"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240613T181257Z

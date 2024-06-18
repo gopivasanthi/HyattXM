@@ -1,0 +1,44 @@
+﻿---
+ID: "65db47d9-ec04-4abc-8dd9-d0534a0abc51"
+Parent: "3b815b1c-2406-4d53-ad00-e26a305b3697"
+Template: "ea915e2a-822c-4221-985f-9fd1336e8597"
+Path: /sitecore/content/HyattXM/HyattXM/Data/TestPriceList/PriceList
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cf5e74d-0f25-4eb0-a4b2-62fb3bf1d5a4"
+      Hint: PriceSlideList
+      Value: |
+        {ED06A053-4768-475F-94A8-36A9911B5491}
+        {231D3091-1027-4141-9413-F65733F9C41E}
+        {68B983D2-BFFC-4BA5-93B4-3A56A01B9DF7}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240616T093504Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "62f8baf9-714a-47aa-90b8-50a3defa962a"
+      Hint: PriceIntroHeading
+      Value: Pricing
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b99d0077-1771-4daf-b91e-e5752aae0558"
+    - ID: "9e682c7b-8f33-4f33-bd80-2ce0d5c4bdcb"
+      Hint: PriceIntroDescription
+      Value: |
+        <span style="color: rgba(33, 37, 41, 0.75); background-color: #ffffff; text-align: center;">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It&rsquo;s built with default Bootstrap components and utilities with little customization.</span>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240616T094616Z

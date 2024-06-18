@@ -1,0 +1,45 @@
+﻿---
+ID: "0e99ec4e-05fa-4a8c-b8a3-f362e00ec129"
+Parent: "f7dee5b8-2fa5-46dd-85c6-7b81c62b0323"
+Template: "f7dee5b8-2fa5-46dd-85c6-7b81c62b0323"
+Path: /sitecore/templates/Project/HyattXM/HyattProduct/__Standard Values
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">
+        <r
+          id="{8A2FEF0E-607F-441F-B10A-6CB6EAF0556C}"
+          ph="headless-main"
+          uid="{667582E6-2AAA-40FE-8E60-D2D64E435DAE}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240614T045942Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a9752090-7372-45e3-a104-40f195afefc9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240614T050040Z

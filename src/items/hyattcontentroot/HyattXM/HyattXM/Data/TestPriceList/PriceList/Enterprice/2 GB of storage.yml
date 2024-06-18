@@ -1,0 +1,26 @@
+﻿---
+ID: "623cccd9-4e5b-4a30-a090-35d73cf247f6"
+Parent: "ed06a053-4768-475f-94a8-36a9911b5491"
+Template: "d632e2a7-bf45-44e3-86c1-853837510068"
+Path: /sitecore/content/HyattXM/HyattXM/Data/TestPriceList/PriceList/Enterprice/2 GB of storage
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2581a32a-c2cb-4899-ab67-53f20773546c"
+      Hint: PriceFeatureText
+      Value: 2 GB of storage
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240616T094959Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "205d6af9-3a33-4e98-ad8c-f1f3252f402f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240616T095008Z

@@ -1,0 +1,44 @@
+﻿---
+ID: "292953ed-6eeb-4632-ab0e-f0b83fb7e592"
+Parent: "eb3dd3f1-866a-48d1-a5d1-48507297fc72"
+Template: "eb3dd3f1-866a-48d1-a5d1-48507297fc72"
+Path: /sitecore/templates/Project/HyattXM/HyattPricing/HyattPricingModule/ProductPricingCard/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{971CF8BA-993F-4383-9D17-9794EF1D40AC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240618T052552Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "597ec2ed-f214-4bfe-9770-099588c1fb00"
+      Hint: PricingCardUnit
+      Value: mo
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "79a12e35-d795-466f-9dd2-eab5ef010350"
+      Hint: PricingCardValue
+      Value: 0
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed329497-48a0-4390-b8b4-686ee91f8fa8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240618T052811Z
+    - ID: "f285e419-4841-4d54-be42-466c7e769f3a"
+      Hint: PricingCardTitle
+      Value: $name

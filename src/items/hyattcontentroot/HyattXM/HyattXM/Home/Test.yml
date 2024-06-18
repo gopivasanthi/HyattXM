@@ -1,0 +1,54 @@
+﻿---
+ID: "fcfdd685-7151-4b8a-b595-15e90752be8b"
+Parent: "c131f89d-c4e7-44b9-9934-0fe00e0e4a2f"
+Template: "fdd5630e-d3c3-4798-ae6a-0d77ae50004f"
+Path: /sitecore/content/HyattXM/HyattXM/Home/Test
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{64D593B6-9A73-4396-B420-A6E484A98888}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{C37C535C-879C-4DDB-A297-E9A1F0F54AB4}"
+          s:ds="{0D135943-5954-4499-BD19-24C3BA6F0E63}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1" />
+        <r
+          uid="{FBFF5294-AD29-43D4-BE72-1AF9CBC57FF6}"
+          p:after="*[1=2]"
+          s:ds="{65DB47D9-EC04-4ABC-8DD9-D0534A0ABC51}"
+          s:id="{09B60CDA-437D-4492-A35E-F25C09CB970D}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240613T181158Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Test
+    - ID: "631ef074-b21c-433f-ae89-a130b4d1f522"
+      Hint: Title
+      Value: Test
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "15562f98-d84b-41f6-aaa2-91a282ecfba8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240616T210555Z

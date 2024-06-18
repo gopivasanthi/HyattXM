@@ -1,0 +1,54 @@
+﻿---
+ID: "231d3091-1027-4141-9413-f65733f9c41e"
+Parent: "65db47d9-ec04-4abc-8dd9-d0534a0abc51"
+Template: "c941920f-fb04-4b10-a5e8-5aab289a7279"
+Path: /sitecore/content/HyattXM/HyattXM/Data/TestPriceList/PriceList/Free
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1087c528-b4b5-461e-ad67-8e7dc8ff8daa"
+      Hint: PriceFeatures
+      Value: |
+        {02D9A99C-E712-4358-AC49-79E3B71A093F}
+        {623CCCD9-4E5B-4A30-A090-35D73CF247F6}
+        {B96CE773-4F14-4F17-BEC7-EE123DDD83FF}
+        {454D4E53-A25E-45C3-A0F3-715ACB7FA3E5}
+    - ID: "12eb7ea1-04f5-4bd6-84f9-c15b5ca96c9a"
+      Hint: PriceSlideTitle
+      Value: Free
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240616T093701Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "776392c9-0140-4de9-a98f-8df682b7313f"
+      Hint: PriceValue
+      Value: 0
+    - ID: "7a400b64-db39-48aa-adb8-17de3e796bdb"
+      Hint: PriceCTALabel
+      Value: For more information
+    - ID: "7bd199e4-9e49-48a3-9f3a-7ad3d9410dce"
+      Hint: PriceCTA
+      Value: |
+        <link linktype="internal" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "55d7913c-fcd3-4aaf-bd03-1105cbaf425a"
+    - ID: "a2cbde04-5a66-4a78-becc-9d58c5571a59"
+      Hint: PriceUnit
+      Value: mo
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240616T214005Z

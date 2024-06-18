@@ -1,16 +1,12 @@
 ﻿---
-ID: "2947a667-1227-467d-8891-dded6e733475"
-Parent: "4b72e714-b263-4bba-82f5-383e50ca9d96"
-Template: "4b72e714-b263-4bba-82f5-383e50ca9d96"
-Path: /sitecore/templates/Project/HyattXM/Page/__Standard Values
+ID: "7e141f39-31fd-4ee2-8883-f966de5d69bf"
+Parent: "ea915e2a-822c-4221-985f-9fd1336e8597"
+Template: "ea915e2a-822c-4221-985f-9fd1336e8597"
+Path: /sitecore/templates/Project/HyattXM/TestModule/TestPriceList/__Standard Values
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
-  Value: |
-    {4B72E714-B263-4BBA-82F5-383E50CA9D96}
-    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
-    {FDD5630E-D3C3-4798-AE6A-0D77AE50004F}
-    {F7DEE5B8-2FA5-46DD-85C6-7B81C62B0323}
+  Value: "{C941920F-FB04-4B10-A5E8-5AAB289A7279}"
 Languages:
 - Language: en
   Versions:
@@ -18,25 +14,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20240612T015458Z
+      Value: 20240616T094737Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\QsjQVPwHJR
+        sitecore\gopi@altudo.co
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\QsjQVPwHJR
-    - ID: "631ef074-b21c-433f-ae89-a130b4d1f522"
-      Hint: Title
-      Value: $name
+        sitecore\gopi@altudo.co
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b5a22840-cf6c-46ee-855a-cfa4185d5806"
+      Value: "5e420cfc-1926-4d7e-91ff-9933064fc152"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240614T050136Z
+      Value: 20240616T094751Z

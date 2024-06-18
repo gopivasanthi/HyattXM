@@ -1,0 +1,26 @@
+﻿---
+ID: "454d4e53-a25e-45c3-a0f3-715acb7fa3e5"
+Parent: "231d3091-1027-4141-9413-f65733f9c41e"
+Template: "d632e2a7-bf45-44e3-86c1-853837510068"
+Path: /sitecore/content/HyattXM/HyattXM/Data/TestPriceList/PriceList/Free/Priority email support
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2581a32a-c2cb-4899-ab67-53f20773546c"
+      Hint: PriceFeatureText
+      Value: Priority email support
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240616T095025Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "86e1a676-c824-4073-8009-1a8a435a8d50"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240616T095025Z

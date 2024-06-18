@@ -1,0 +1,47 @@
+﻿---
+ID: "05d73879-8381-463d-b244-9bb82a241613"
+Parent: "c131f89d-c4e7-44b9-9934-0fe00e0e4a2f"
+Template: "f7dee5b8-2fa5-46dd-85c6-7b81c62b0323"
+Path: /sitecore/content/HyattXM/HyattXM/Home/Product
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{FBA75354-3D21-470D-A572-09FFC59B50F8}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{667582E6-2AAA-40FE-8E60-D2D64E435DAE}"
+          s:ds="{679065BE-F6ED-4A93-8C0A-B5F523B8D726}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240614T050203Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Product
+    - ID: "631ef074-b21c-433f-ae89-a130b4d1f522"
+      Hint: Title
+      Value: Product
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "486ae70d-fd7a-41f1-a96d-1aaf2fbca198"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240614T050950Z

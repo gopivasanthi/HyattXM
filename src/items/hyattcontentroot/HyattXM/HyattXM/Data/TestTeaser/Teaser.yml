@@ -1,0 +1,49 @@
+﻿---
+ID: "0d135943-5954-4499-bd19-24c3ba6f0e63"
+Parent: "2bc3aec2-a5d2-4e1a-a3eb-189956aa1245"
+Template: "3924fd51-b19a-4076-bdd9-e8e300c6d6bc"
+Path: /sitecore/content/HyattXM/HyattXM/Data/TestTeaser/Teaser
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0c1d9fc4-1fb3-41a8-ac94-3730ca0c8286"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{7DC4262C-8DF4-4A34-9D65-ACD13F695168}" alt="test" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240613T181319Z
+    - ID: "393775c1-b6ec-4bd9-a2e7-6fb564cbba2f"
+      Hint: TeaserSecondaryClick
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D3627CDE-0EA4-4791-ACAB-BE6D2E98DE9B}" />
+    - ID: "4e433171-bc7d-4384-b10f-b5069bac055f"
+      Hint: TeaserDescription
+      Value: test&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;testtest&nbsp;test test test test test test test test test test test test test test test test test test test test test test test test
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "87d31afa-3a8b-4608-83b5-eb9cede4dc21"
+    - ID: "944359a7-822c-4618-bfa5-fecd385d1f62"
+      Hint: TeaserPrimaryClick
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{97057E8E-BDE8-44B1-BDEA-8EFB1D18A3DB}" />
+    - ID: "b19e52f4-b45c-4904-9ec6-26f31aff4d8f"
+      Hint: TeaserTitle
+      Value: Test
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240613T181511Z

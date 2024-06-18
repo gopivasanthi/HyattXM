@@ -23,6 +23,9 @@ SharedFields:
     {AC1A27CA-6BF3-4D23-915E-668326D52CF1}
     {D7EEAF4D-2B58-4029-B141-844221565EF0}
     {ED6C4A9B-E3DC-413A-BEF6-337ABB7FD2C7}
+    {E2377881-45D2-4677-91DB-D89E4D548533}
+    {E6E6D66A-F8B3-4F73-B3F1-2FD80282FF80}
+    {8B55AF5D-37BD-4FF8-BE08-5A30E1DEE41E}
 - ID: "2b2fe9fd-78a6-40eb-b9f9-28409d8d3700"
   Hint: SitemapMediaItems
   Value: "{B0682A34-1D8F-4249-9E22-FB5477F5C718}"
@@ -50,11 +53,11 @@ Languages:
         sitecore\QsjQVPwHJR
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1f9ffc27-79dc-46fe-9f51-18fd69d2c00f"
+      Value: "a2a9b83a-5efb-4717-a2d2-4b574c85a535"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\QsjQVPwHJR
+        sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240612T022811Z
+      Value: 20240618T052446Z

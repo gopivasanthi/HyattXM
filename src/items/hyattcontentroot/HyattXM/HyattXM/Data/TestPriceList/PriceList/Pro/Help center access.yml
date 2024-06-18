@@ -1,0 +1,26 @@
+﻿---
+ID: "b96ce773-4f14-4f17-bec7-ee123ddd83ff"
+Parent: "68b983d2-bffc-4ba5-93b4-3a56a01b9df7"
+Template: "d632e2a7-bf45-44e3-86c1-853837510068"
+Path: /sitecore/content/HyattXM/HyattXM/Data/TestPriceList/PriceList/Pro/Help center access
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2581a32a-c2cb-4899-ab67-53f20773546c"
+      Hint: PriceFeatureText
+      Value: Help center access
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240616T095040Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "16ffd8e0-cfd3-4709-adf6-8f26a35d6509"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240616T095040Z

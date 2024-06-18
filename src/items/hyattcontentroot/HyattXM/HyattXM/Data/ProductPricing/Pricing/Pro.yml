@@ -1,0 +1,43 @@
+﻿---
+ID: "7b38817a-b1e4-4021-8930-ce4e80a1e23d"
+Parent: "8eacdbb0-1c8f-474d-8c15-6ad00e563c98"
+Template: "eb3dd3f1-866a-48d1-a5d1-48507297fc72"
+Path: /sitecore/content/HyattXM/HyattXM/Data/ProductPricing/Pricing/Pro
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240618T052829Z
+    - ID: "442436b9-cac3-48b1-b811-76f6f5332702"
+      Hint: PricingCTALabel
+      Value: Subscribe Professional
+    - ID: "79a12e35-d795-466f-9dd2-eab5ef010350"
+      Hint: PricingCardValue
+      Value: $15
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5f718253-24c0-42d6-9760-2a9bee6eed38"
+    - ID: "abf7b960-677d-4ed2-bca6-aeb2c4a487b0"
+      Hint: PricingFeatures
+      Value: |
+        {A2606E74-F936-441D-A243-515F0CDD124E}
+        {238CF9E4-18CD-467C-8686-2C55134B0346}
+        {C19BD26A-8F1D-49A8-A2AC-A99833AE6AC7}
+        {668931DD-99D7-49F7-9E79-F72B6E8F428F}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240618T112846Z
+    - ID: "f285e419-4841-4d54-be42-466c7e769f3a"
+      Hint: PricingCardTitle
+      Value: Pro

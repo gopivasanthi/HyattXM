@@ -1,0 +1,26 @@
+﻿---
+ID: "02d9a99c-e712-4358-ac49-79e3b71a093f"
+Parent: "ed06a053-4768-475f-94a8-36a9911b5491"
+Template: "d632e2a7-bf45-44e3-86c1-853837510068"
+Path: /sitecore/content/HyattXM/HyattXM/Data/TestPriceList/PriceList/Enterprice/10 users included
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2581a32a-c2cb-4899-ab67-53f20773546c"
+      Hint: PriceFeatureText
+      Value: 10 users included
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240616T094944Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5406a054-a684-4bf9-b426-f21119c708db"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240616T094944Z
