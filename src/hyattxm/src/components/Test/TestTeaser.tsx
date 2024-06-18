@@ -1,14 +1,13 @@
 import React from 'react';
-import useRouter from 'next/router';
-import { ComponentParams } from '@sitecore-jss/sitecore-jss-nextjs';
+import { ComponentParams, Link, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
 import TeaserImages from 'src/atoms/TestAtoms/TeaserImages';
 import { TeaserImageField } from 'src/atoms/TestAtoms/TeaserImages';
 import TeaserContent from 'src/atoms/TestAtoms/TeaserContent';
 import { TeaserContentField } from 'src/atoms/TestAtoms/TeaserContent';
 
 interface TestTeaserFields extends TeaserImageField, TeaserContentField {
-  TeaserPrimaryClick: string;
-  TeaserSecondaryClick: string;
+  TeaserPrimaryClick: LinkField;
+  TeaserSecondaryClick: LinkField;
 }
 
 interface TestTeaserProps {
@@ -17,18 +16,10 @@ interface TestTeaserProps {
 }
 
 export const Default = (props: TestTeaserProps): JSX.Element => {
-  const router = useRouter;
   console.log(props);
   props.fields.ImageWidth = '700';
   props.fields.ImageHeight = '500';
 
-  const handlePrimaryClick = () => {
-    router.push(props.fields.TeaserPrimaryClick);
-  };
-
-  const handleSecondaryClick = () => {
-    router.push(props.fields.TeaserSecondaryClick);
-  };
 
   return (
     <div className="container col-xxl-8 px-4 py-5">
@@ -39,20 +30,20 @@ export const Default = (props: TestTeaserProps): JSX.Element => {
         <div className="col-lg-6">
           <TeaserContent {...props} />
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button
+            <Link
               type="button"
-              onClick={handlePrimaryClick}
               className="btn btn-primary btn-lg px-4 me-md-2"
+              field={props.fields.TeaserPrimaryClick}
             >
               Primary
-            </button>
-            <button
+            </Link>
+            <Link
               type="button"
-              onClick={handleSecondaryClick}
               className="btn btn-outline-secondary btn-lg px-4"
+              field={props.fields.TeaserSecondaryClick}
             >
-              Default
-            </button>
+              Secondary
+            </Link>
           </div>
         </div>
       </div>
