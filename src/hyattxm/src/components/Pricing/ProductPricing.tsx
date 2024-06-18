@@ -14,7 +14,7 @@ interface ProductPricingProps {
 
 export const Default = (props: ProductPricingProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-
+  console.log(props);
   return (
     <div className={`component ${props.params.styles}`} id={id ? id : undefined}>
       <div className="container py-3">
@@ -24,13 +24,18 @@ export const Default = (props: ProductPricingProps): JSX.Element => {
         <main>
           <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
             {props.fields.ProductPriceList &&
-              props.fields.ProductPriceList.slice(3).map((pricecard, index) => {
+              props.fields.ProductPriceList.map((pricecard, index) => {
                 const pricingCardProps: PricingCardProps = {
                   params: props.params,
                   fields: pricecard.fields,
                   parentIndex: index,
                 };
-                return (<PricingCard {...pricingCardProps} />);
+                console.log(pricingCardProps);
+                return (
+                  <div key={`pricecard-${index}`}>
+                    <PricingCard {...pricingCardProps} />
+                  </div>
+                );
               })}
           </div>
         </main>

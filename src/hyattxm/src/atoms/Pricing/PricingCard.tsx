@@ -44,7 +44,7 @@ export const PricingCard = (props: PricingCardProps): JSX.Element => {
             </h1>
             <ul className="list-unstyled mt-3 mb-4">
               {props.fields.PricingFeatures &&
-                props.fields.PricingFeatures.slice(4).map((featureitem, index) => {
+                props.fields.PricingFeatures.map((featureitem, index) => {
                   return (
                     <li key={`featureitem-${index}`}>
                       <Text field={featureitem.fields.PricingFeatureText} />
