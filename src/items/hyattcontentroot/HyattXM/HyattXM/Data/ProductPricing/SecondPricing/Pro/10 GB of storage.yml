@@ -1,0 +1,26 @@
+﻿---
+ID: "5039f0a7-3356-4d64-a980-e90e1f6c5b9b"
+Parent: "050e8ad3-9064-47c7-ab7d-a760b4de8eb4"
+Template: "971cf8ba-993f-4383-9d17-9794ef1d40ac"
+Path: /sitecore/content/HyattXM/HyattXM/Data/ProductPricing/SecondPricing/Pro/10 GB of storage
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240618T052918Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "70bf329a-d304-425f-97f9-6ce018f21c43"
+    - ID: "ab3f196f-c487-4cd9-b56a-acd6d14d174c"
+      Hint: PricingFeatureText
+      Value: 10 GB of storage
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240618T053109Z

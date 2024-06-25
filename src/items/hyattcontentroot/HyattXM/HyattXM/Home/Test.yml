@@ -21,10 +21,17 @@ SharedFields:
           s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1" />
         <r
           uid="{FBFF5294-AD29-43D4-BE72-1AF9CBC57FF6}"
-          p:after="*[1=2]"
+          p:after="r[@uid='{C37C535C-879C-4DDB-A297-E9A1F0F54AB4}']"
           s:ds="{65DB47D9-EC04-4ABC-8DD9-D0534A0ABC51}"
           s:id="{09B60CDA-437D-4492-A35E-F25C09CB970D}"
           s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
+          uid="{67CDC447-BE0B-43AE-9805-6D117F01D160}"
+          p:after="*[1=2]"
+          s:ds="{B0399061-3199-49D9-9C4A-EF6DC0C84CEB}"
+          s:id="{3236D639-5BA4-4852-AD78-29037CA2A147}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
           s:ph="headless-main" />
       </d>
     </r>
@@ -44,11 +51,11 @@ Languages:
       Value: Test
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "15562f98-d84b-41f6-aaa2-91a282ecfba8"
+      Value: "fa410230-7a6d-45b1-8f19-38f33ba38bdb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240616T210555Z
+      Value: 20240625T032003Z

@@ -1,0 +1,45 @@
+﻿---
+ID: "b0399061-3199-49d9-9c4a-ef6dc0c84ceb"
+Parent: "e9e00db7-122d-4784-8ed7-3b2227c4eeca"
+Template: "63b68144-aae3-4225-afa1-95b1b788fdbe"
+Path: /sitecore/content/HyattXM/HyattXM/Data/ProductHero/ProductHero
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "14b5c024-3208-4626-a13d-6e826d5222af"
+      Hint: HeroSecCTA
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{97057E8E-BDE8-44B1-BDEA-8EFB1D18A3DB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240620T052335Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "89ecb9e6-3d17-4190-a17e-bcec4c4e7b08"
+      Hint: SubText
+      Value: Build anything you want with Aperture
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "15869dc7-4129-458b-9def-a47b084bff97"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "cba95024-8225-41e4-a48a-78bdccc68169"
+      Hint: PageHeading
+      Value: Designed for engineers
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T052441Z
+    - ID: "e27091e1-bed6-44a6-b936-78d30c6075e8"
+      Hint: HeroCTA
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{C131F89D-C4E7-44B9-9934-0FE00E0E4A2F}" />

@@ -1,0 +1,26 @@
+﻿---
+ID: "b7c74b22-c1b4-4834-a030-a93010e8112a"
+Parent: "6956aa20-bd47-4fcb-93bc-8a5fbfd78613"
+Template: "c142662a-99e8-4e96-a2eb-f45f455322a4"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Master/Colors/Grey
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240620T051659Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c7621074-422a-4855-a745-2561f3544ba5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T051659Z
+    - ID: "f54d8ad0-b76b-4e39-bfb8-f4c5166a1828"
+      Hint: ColorRGBName
+      Value: Grey

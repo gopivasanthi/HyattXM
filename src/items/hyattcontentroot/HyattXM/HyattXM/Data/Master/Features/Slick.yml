@@ -1,0 +1,26 @@
+﻿---
+ID: "ae823e08-3588-40cb-87de-17bdd5093817"
+Parent: "9a1985fa-a04d-444e-afc0-9df3a97dfdfa"
+Template: "03615092-2fdd-43cc-a13a-11464c5164ba"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Master/Features/Slick
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02425db7-fa40-47bc-b39c-413f6de75d32"
+      Hint: FeatureReference
+      Value: Slick
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240620T051719Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf4ea26a-f1ea-4b1a-afb4-109bea8a1219"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T051719Z

@@ -1,0 +1,26 @@
+﻿---
+ID: "fc9143bc-5775-4e26-82cd-99c2f138d2c0"
+Parent: "add69be8-1236-444d-a9a7-a5ca80bc7981"
+Template: "971cf8ba-993f-4383-9d17-9794ef1d40ac"
+Path: /sitecore/content/HyattXM/HyattXM/Data/ProductPricing/SecondPricing/Enterprise/Phone and email support
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240618T053158Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d00151eb-f905-465e-845e-0f2c06fb5c21"
+    - ID: "ab3f196f-c487-4cd9-b56a-acd6d14d174c"
+      Hint: PricingFeatureText
+      Value: Phone and email support
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240618T053158Z

@@ -6,7 +6,7 @@ Path: /sitecore/templates/Project/HyattXM/HyattPricingPage
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Other/16x16/at.png
+  Value: Office/32x32/moneybag_coins.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{4B72E714-B263-4BBA-82F5-383E50CA9D96}"
@@ -31,11 +31,11 @@ Languages:
         sitecore\gopi@altudo.co
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "58d7afe1-a1d6-4004-b843-5e669769e4cd"
+      Value: "7dcd9f41-3961-402d-bbd0-d7911f9e57c4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240618T052345Z
+      Value: 20240625T071345Z

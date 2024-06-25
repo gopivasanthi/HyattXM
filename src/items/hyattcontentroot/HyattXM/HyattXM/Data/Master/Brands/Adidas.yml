@@ -1,0 +1,26 @@
+﻿---
+ID: "4b65e8be-e7b2-4452-948d-8d38f94ec622"
+Parent: "447a75a6-a637-41e4-94d0-04242eda323e"
+Template: "e8777876-6f76-4956-a09a-15d5ff7fc299"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Master/Brands/Adidas
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0960d932-3d21-49c5-8c20-dd7411699666"
+      Hint: BrandName
+      Value: Adidas
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240620T051625Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f5f3330d-86da-47a3-b697-f8022e47cd08"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T051625Z

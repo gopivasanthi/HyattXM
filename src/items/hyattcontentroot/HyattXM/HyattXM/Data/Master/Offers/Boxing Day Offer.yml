@@ -1,0 +1,26 @@
+﻿---
+ID: "ff387f1e-b30e-4bd0-a781-49a11b8f869d"
+Parent: "8732c71e-2b9b-4500-ab13-45fbeb442735"
+Template: "a4e5cac9-22b3-4cea-8ad3-897be059da5d"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Master/Offers/Boxing Day Offer
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240620T051757Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba5b9d0c-7a51-4a49-af6e-a5ea7ea09cfb"
+    - ID: "a9632400-fba6-4e41-9cf2-f11db6b474c8"
+      Hint: OfferReference
+      Value: Boxing Day Offer
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T051757Z

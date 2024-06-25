@@ -1,0 +1,62 @@
+﻿---
+ID: "4ffacc1e-d930-4997-a69d-0eb82e4c1a24"
+Parent: "c10f69f6-8803-4533-9b0b-afe85a9dabe2"
+Template: "f3052c05-b645-4c46-9cf2-23ff23fd3295"
+Path: "/sitecore/content/HyattXM/HyattXM/Data/ProductDetail/Sports-Shoes"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "127ae1d1-7f88-4fd2-849b-87e320c7beb7"
+      Hint: PrimaryColor
+      Value: "{C1948D09-AEC6-4833-8088-A5CD5607B071}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240624T210317Z
+    - ID: "4e4bae04-b55b-41de-986b-92f79aaf1d66"
+      Hint: Name
+      Value: Sports Shoes
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "78b5fe18-de0d-425d-aa78-01db6b1feed3"
+      Hint: Pricing
+      Value: 600
+    - ID: "8bdb7075-7247-49fb-976b-0a760b35e1ae"
+      Hint: BasicFeatures
+      Value: "{CED22718-EFD2-484F-B047-4BA8120B8D53}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cb584aec-1107-4c6b-b12a-5fa5ca316ad1"
+    - ID: "a245ba66-0305-4ea6-b985-1b4991ff3cae"
+      Hint: Offers
+      Value: "{CA2CB8BC-EB1F-4553-8987-0E82C21C0BF6}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "bd3705b5-b95a-48ff-8403-c11a08330f62"
+      Hint: Brand
+      Value: 
+    - ID: "c3d7df25-054e-42f1-93b1-015188c71507"
+      Hint: BasicSpecifications
+      Value: "{4AEC06ED-C05E-49C4-B8F8-B0465A9755A0}"
+    - ID: "c5d18617-2a07-4ee7-88a0-93f63a01e767"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{178ADC7C-28BD-4356-A1E0-FAC53DA52B4F}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240625T065318Z
+    - ID: "dbe4541e-bac3-4b41-bde1-3b3ff17d1f90"
+      Hint: RelatedVariants
+      Value: 
+    - ID: "df92d939-52e5-4542-ae24-dd3306702f2d"
+      Hint: Description
+      Value: 

@@ -1,0 +1,44 @@
+﻿---
+ID: "22b706fd-66e9-4652-909d-9e86f9bca6ee"
+Parent: "65609a0f-b72d-44c1-9808-e687c371ed67"
+Template: "a01a779b-d535-4636-a1f3-f62f0bc18b1c"
+Path: /sitecore/content/HyattXM/HyattXM/Data/ProductPricing/SecondPricing
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240618T052506Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "71924cca-7d3b-4207-bddc-7d01629192e9"
+      Hint: PricingDescription
+      Value: |
+        <span style="color: rgba(33, 37, 41, 0.75); background-color: #ffffff; text-align: center;">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It&rsquo;s built with default Bootstrap components and utilities with little customization.</span>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b07c1c00-ce4f-4301-8e37-241820a7455b"
+    - ID: "a906fbdc-b3b7-463c-90e6-60f59cfa9851"
+      Hint: ProductPriceList
+      Value: |
+        {E5F2BC46-58CA-4887-835C-336EAC8C7ED0}
+        {7B38817A-B1E4-4021-8930-CE4E80A1E23D}
+        {D3A62E43-9D19-4117-A3E0-FC3DC3F5C3AF}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240619T050404Z
+    - ID: "f03ae122-dec7-4705-8e63-68f034631825"
+      Hint: PricingHeading
+      Value: SecondPricing

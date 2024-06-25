@@ -1,0 +1,26 @@
+﻿---
+ID: "b806577c-9626-4a54-84f0-55178b60bbda"
+Parent: "add69be8-1236-444d-a9a7-a5ca80bc7981"
+Template: "971cf8ba-993f-4383-9d17-9794ef1d40ac"
+Path: /sitecore/content/HyattXM/HyattXM/Data/ProductPricing/SecondPricing/Enterprise/30 users included
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240618T053136Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "176e3732-7940-485f-97b1-459ed75c5781"
+    - ID: "ab3f196f-c487-4cd9-b56a-acd6d14d174c"
+      Hint: PricingFeatureText
+      Value: 30 users included
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240618T053136Z

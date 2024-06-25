@@ -5,6 +5,9 @@ Template: "a29d272e-9d48-453c-9e9d-b47585fa7f20"
 Path: /sitecore/content/HyattXM/HyattXM/Data
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{79B84D7E-9A43-48DB-9E8D-9F98AB16D79F}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 1400
@@ -29,11 +32,11 @@ Languages:
         sitecore\QsjQVPwHJR
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "231ad3d8-d862-4371-a5c1-157336287aca"
+      Value: "8bc0b697-a975-4386-adf9-3e92a47e359a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\QsjQVPwHJR
+        sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240612T015507Z
+      Value: 20240620T050709Z

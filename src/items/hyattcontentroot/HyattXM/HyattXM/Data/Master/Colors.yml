@@ -1,0 +1,23 @@
+﻿---
+ID: "6956aa20-bd47-4fcb-93bc-8a5fbfd78613"
+Parent: "1a670463-400e-46f0-9335-63883a24bfb4"
+Template: "bb3397e4-3637-4964-b453-11b6a18fe411"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Master/Colors
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240620T051315Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "88890f88-2466-4088-a2a1-349ee20ff4a8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T051315Z

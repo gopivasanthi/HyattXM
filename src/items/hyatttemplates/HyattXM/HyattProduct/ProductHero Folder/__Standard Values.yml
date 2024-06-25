@@ -1,0 +1,33 @@
+﻿---
+ID: "be2ea05e-8e9a-436f-ad7e-18e5de889fd2"
+Parent: "568c8b50-e52a-470f-9e0d-a234c7e0cff9"
+Template: "568c8b50-e52a-470f-9e0d-a234c7e0cff9"
+Path: /sitecore/templates/Project/HyattXM/HyattProduct/ProductHero Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {63B68144-AAE3-4225-AFA1-95B1B788FDBE}
+    {568C8B50-E52A-470F-9E0D-A234C7E0CFF9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "33f85ee1-daec-4e19-a759-a1ba5d1389e0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T043803Z

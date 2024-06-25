@@ -1,0 +1,26 @@
+﻿---
+ID: "0d3b4c79-8816-411e-bb2e-5b12c1c8db85"
+Parent: "9a1985fa-a04d-444e-afc0-9df3a97dfdfa"
+Template: "03615092-2fdd-43cc-a13a-11464c5164ba"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Master/Features/Flip
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02425db7-fa40-47bc-b39c-413f6de75d32"
+      Hint: FeatureReference
+      Value: Flipl
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240620T051725Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f6776c71-1926-4fe0-8b6f-11b8eabbaf10"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T051729Z

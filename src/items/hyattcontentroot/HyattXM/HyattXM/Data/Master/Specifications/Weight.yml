@@ -1,0 +1,26 @@
+﻿---
+ID: "4aec06ed-c05e-49c4-b8f8-b0465a9755a0"
+Parent: "e06bd897-f3be-4267-b8ec-2e71df0124b8"
+Template: "c886c28b-5eab-41c8-a130-45681dcb6066"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Master/Specifications/Weight
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240620T051836Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c6bf60af-a099-4238-a8ea-d48f1ac1cdc9"
+    - ID: "aff25ac9-c18d-4936-a1ef-fd23084ff8bd"
+      Hint: SpecificationName
+      Value: Weight
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T051836Z

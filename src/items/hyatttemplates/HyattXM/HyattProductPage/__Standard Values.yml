@@ -1,9 +1,17 @@
 ﻿---
-ID: "0e99ec4e-05fa-4a8c-b8a3-f362e00ec129"
-Parent: "f7dee5b8-2fa5-46dd-85c6-7b81c62b0323"
-Template: "f7dee5b8-2fa5-46dd-85c6-7b81c62b0323"
-Path: /sitecore/templates/Project/HyattXM/HyattProduct/__Standard Values
+ID: "6e34a958-1dcc-445a-a75a-000ae2e1b570"
+Parent: "e7f13518-4b9a-4a19-b884-b8441d7064a2"
+Template: "e7f13518-4b9a-4a19-b884-b8441d7064a2"
+Path: /sitecore/templates/Project/HyattXM/HyattProductPage/__Standard Values
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {4B72E714-B263-4BBA-82F5-383E50CA9D96}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {FDD5630E-D3C3-4798-AE6A-0D77AE50004F}
+    {F7DEE5B8-2FA5-46DD-85C6-7B81C62B0323}
+    {9CDA0E3B-7F23-4DE1-8501-38E460E613E4}
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -12,9 +20,13 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">
         <r
-          id="{8A2FEF0E-607F-441F-B10A-6CB6EAF0556C}"
+          id="{3236D639-5BA4-4852-AD78-29037CA2A147}"
           ph="headless-main"
-          uid="{667582E6-2AAA-40FE-8E60-D2D64E435DAE}" />
+          uid="{0FB6757E-9703-422C-83F1-195C8088D698}" />
+        <r
+          id="{325A9057-E90C-4C11-B323-1FA78617372F}"
+          ph="headless-main"
+          uid="{A3E7E720-2241-4E10-A470-CF2065BBC4E5}" />
       </d>
     </r>
 Languages:
@@ -24,7 +36,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20240614T045942Z
+      Value: 20240620T052511Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -35,11 +47,11 @@ Languages:
         sitecore\gopi@altudo.co
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a9752090-7372-45e3-a104-40f195afefc9"
+      Value: "1db8293d-67d8-454e-97c5-c4beb49e2bf1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240614T050040Z
+      Value: 20240625T055146Z

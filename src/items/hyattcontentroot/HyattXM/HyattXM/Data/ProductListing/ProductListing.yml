@@ -1,0 +1,36 @@
+﻿---
+ID: "ff33f4b9-a112-4227-a21a-86812ac0b986"
+Parent: "03934abd-a2ba-4c8b-8f17-3afcfcab1bb3"
+Template: "86be8e41-fb59-4fc9-a5d5-6ae2ea6d101f"
+Path: /sitecore/content/HyattXM/HyattXM/Data/ProductListing/ProductListing
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2152057d-9907-4d7c-99c5-b794b8aa274a"
+      Hint: FeaturedProductList
+      Value: |
+        {4FFACC1E-D930-4997-A69D-0EB82E4C1A24}
+        {33B4A37F-DB9A-467C-B91A-923769836AE7}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240620T052609Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f45c22a0-5b93-4c64-8599-81b235d1270f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240625T065413Z
