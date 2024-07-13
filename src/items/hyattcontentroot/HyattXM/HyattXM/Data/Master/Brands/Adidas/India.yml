@@ -1,0 +1,30 @@
+﻿---
+ID: "1a5047bb-a02d-484f-9ccc-110f12133214"
+Parent: "4b65e8be-e7b2-4452-948d-8d38f94ec622"
+Template: "fd12b0a2-495c-4696-9304-166a92e46bf6"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Master/Brands/Adidas/India
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240712T022634Z
+    - ID: "3278113f-4775-47f0-a7d6-3d44ce44ea9b"
+      Hint: HighlightImage
+      Value: |
+        <image mediaid="{DD3CFF20-C6D5-42C5-8E0E-A2B36D84E8A7}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1f6ff6f3-4d37-432a-a82b-4745ad85dcbb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240712T022705Z
+    - ID: "e7350a9f-8d36-4365-b308-6bad5af54cb1"
+      Hint: HighlightText
+      Value: India

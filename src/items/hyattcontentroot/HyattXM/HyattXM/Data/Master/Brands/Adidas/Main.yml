@@ -1,0 +1,30 @@
+﻿---
+ID: "193cc45a-175f-4be8-8f65-0fac16e254bc"
+Parent: "4b65e8be-e7b2-4452-948d-8d38f94ec622"
+Template: "fd12b0a2-495c-4696-9304-166a92e46bf6"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Master/Brands/Adidas/Main
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240712T022416Z
+    - ID: "3278113f-4775-47f0-a7d6-3d44ce44ea9b"
+      Hint: HighlightImage
+      Value: |
+        <image mediaid="{0DE91DA5-C325-4DA8-BE17-7CF3ED77952C}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "15765160-14d6-4ee4-8acc-e1e64a2036b9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240712T022621Z
+    - ID: "e7350a9f-8d36-4365-b308-6bad5af54cb1"
+      Hint: HighlightText
+      Value: Main

@@ -2,12 +2,12 @@ import React from 'react';
 
 import { TestProductCardHighlightsFields } from 'src/types/TestProductCardHighlightsFields';
 
-export const Default = (props: TestProductCardHighlightsFields): JSX.Element => {
+export const TestProductCardPrimaryHighlights = (props: TestProductCardHighlightsFields): JSX.Element => {
   return (
     <li className="me-auto">
       <img
-        src={props.HighlightIconImageUrl}
-        alt={props.HighlightIconImageAlt}
+        src={props.highlightImageUrl.value}
+        alt={props.highlightImageAlt.value}
         width="32"
         height="32"
         className="rounded-circle border border-white"
@@ -15,3 +15,5 @@ export const Default = (props: TestProductCardHighlightsFields): JSX.Element => 
     </li>
   );
 };
+
+export default TestProductCardPrimaryHighlights;

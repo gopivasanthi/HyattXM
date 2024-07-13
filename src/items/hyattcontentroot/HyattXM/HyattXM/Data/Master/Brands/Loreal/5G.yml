@@ -1,0 +1,30 @@
+﻿---
+ID: "1ca850da-88e2-41b2-9005-2ac0dd934029"
+Parent: "1e8e10ef-2640-4df9-a6ff-6cbbabaaae3d"
+Template: "fd12b0a2-495c-4696-9304-166a92e46bf6"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Master/Brands/Loreal/5G
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240712T023512Z
+    - ID: "3278113f-4775-47f0-a7d6-3d44ce44ea9b"
+      Hint: HighlightImage
+      Value: |
+        <image mediaid="{03110652-0552-4426-A82B-EBFC00412178}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4acad833-e029-4fa0-b86b-3c363ac92a1e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240712T023527Z
+    - ID: "e7350a9f-8d36-4365-b308-6bad5af54cb1"
+      Hint: HighlightText
+      Value: 5G

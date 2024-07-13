@@ -9,7 +9,7 @@ Languages:
   - Version: 1
     Fields:
     - ID: "0960d932-3d21-49c5-8c20-dd7411699666"
-      Hint: BrandName
+      Hint: ProductCardTitle
       Value: Puma
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created

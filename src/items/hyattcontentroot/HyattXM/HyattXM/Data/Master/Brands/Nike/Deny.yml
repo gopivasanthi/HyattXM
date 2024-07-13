@@ -1,0 +1,30 @@
+﻿---
+ID: "73cf07b9-8eb1-40e7-8285-e97671d41d1b"
+Parent: "1bbe6401-e15e-4cca-9d64-0b9236c1fc9d"
+Template: "fd12b0a2-495c-4696-9304-166a92e46bf6"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Master/Brands/Nike/Deny
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240712T023745Z
+    - ID: "3278113f-4775-47f0-a7d6-3d44ce44ea9b"
+      Hint: HighlightImage
+      Value: |
+        <image mediaid="{F16DA2BA-5E0E-440E-AE23-D67627778E4C}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b8c2e63-71a5-4e07-9f19-9c815f8ed16e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240712T023804Z
+    - ID: "e7350a9f-8d36-4365-b308-6bad5af54cb1"
+      Hint: HighlightText
+      Value: Deny

@@ -1,0 +1,69 @@
+﻿---
+ID: "9dd3708c-371b-4939-b63a-a6eaccb9b03b"
+Parent: "23a270ae-f718-4eff-a35f-cebc3cf552f9"
+Template: "f3052c05-b645-4c46-9cf2-23ff23fd3295"
+Path: "/sitecore/content/HyattXM/HyattXM/Data/TestProductDetails/Kids-shoes"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "127ae1d1-7f88-4fd2-849b-87e320c7beb7"
+      Hint: PrimaryColor
+      Value: "{B2B2E4C2-12E9-43A9-8192-F90109FDE3A8}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240624T071042Z
+    - ID: "4e4bae04-b55b-41de-986b-92f79aaf1d66"
+      Hint: Name
+      Value: Kids Shoes
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "78b5fe18-de0d-425d-aa78-01db6b1feed3"
+      Hint: Pricing
+      Value: 100
+    - ID: "8bdb7075-7247-49fb-976b-0a760b35e1ae"
+      Hint: BasicFeatures
+      Value: "{0D3B4C79-8816-411E-BB2E-5B12C1C8DB85}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf17b4e5-d048-48b3-914f-973686197630"
+    - ID: "a245ba66-0305-4ea6-b985-1b4991ff3cae"
+      Hint: Offers
+      Value: "{FF387F1E-B30E-4BD0-A781-49A11B8F869D}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "bd3705b5-b95a-48ff-8403-c11a08330f62"
+      Hint: Brand
+      Value: |
+        {4B65E8BE-E7B2-4452-948D-8D38F94EC622}
+        {1E8E10EF-2640-4DF9-A6FF-6CBBABAAAE3D}
+        {1BBE6401-E15E-4CCA-9D64-0B9236C1FC9D}
+    - ID: "c3d7df25-054e-42f1-93b1-015188c71507"
+      Hint: BasicSpecifications
+      Value: |
+        {62841365-A70C-4F6A-8422-CB5C7EF894F8}
+        {501A1531-4FD3-4DF6-8315-3DBAD14EBA32}
+        {4AEC06ED-C05E-49C4-B8F8-B0465A9755A0}
+        {DDC6A142-3807-439D-8834-57C72CA81940}
+    - ID: "c5d18617-2a07-4ee7-88a0-93f63a01e767"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{518F601F-A740-4227-8095-B164BEA15E6B}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240712T023856Z
+    - ID: "dbe4541e-bac3-4b41-bde1-3b3ff17d1f90"
+      Hint: RelatedVariants
+      Value: "{4FFACC1E-D930-4997-A69D-0EB82E4C1A24}"
+    - ID: "df92d939-52e5-4542-ae24-dd3306702f2d"
+      Hint: Description
+      Value: 

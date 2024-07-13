@@ -1,5 +1,11 @@
 export interface TestProductCardHighlightsFields {
-  HighlightIconImageUrl: string;
-  HighlightIconImageAlt: string;
-  HighlightText: string;
+  highlightText: {
+    value: string;
+  };
+  highlightImageUrl: {
+    value: string;
+  };
+  highlightImageAlt: {
+    value: string;
+  };
 }

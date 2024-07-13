@@ -9,18 +9,47 @@ Languages:
   - Version: 1
     Fields:
     - ID: "0960d932-3d21-49c5-8c20-dd7411699666"
-      Hint: BrandName
-      Value: Adidas
+      Hint: ProductCardTitle
+      Value: Making changes with essense
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240620T051625Z
+    - ID: "8082a366-ca30-4b13-83ca-af02fcfdf8ce"
+      Hint: CardHighlights
+      Value: |
+        {BA107FED-B50E-4D96-88A9-2474DE7EBC96}
+        {1A5047BB-A02D-484F-9CCC-110F12133214}
+        {193CC45A-175F-4BE8-8F65-0FAC16E254BC}
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f5f3330d-86da-47a3-b697-f8022e47cd08"
+      Value: "851d6685-7155-4c75-b2e5-ecb125e244ae"
+    - ID: "97fdf935-a5b1-46e5-92b9-b609b084a093"
+      Hint: ProductBrandDescription
+      Value: |
+        Later in Detroit, Biden delivered a speech cautioning against the "nightmare" of a second Trump term, based on a far-right agenda that his campaign is attributing to the former president.<br />
+        <br />
+        "There's been a lot of speculation lately. What's Joe Biden going to do, is he going to stay in the race, is he going to drop out?" Biden told supporters in the city of Detroit, to chants of "Don't you quit!"<br />
+        <br />
+        <em>"Here's my answer: I am running and we're going to win! I'm not going to change that," Biden said.</em><br />
+        <br />
+        The president's communications director, Michael Tyler, told reporters that Biden understands the lingering concerns and is determined to prove he is the best candidate to take on and defeat Trump in November. He downplayed Biden's verbal missteps, noting that he has been known for making them throughout his lengthy political career.<br />
+        <br />
+        <strong>Calls for Biden to drop bid grow</strong><br />
+        <br />
+        Despite Biden's efforts to reach out to lawmakers and the support of top Democrat Hakeem Jeffries, the debate surrounding his fitness for office continued to impact Democratic donors. Some high-profile supporters, such as actor George Clooney, have called for Biden to step aside, while a significant amount of pledged donations is reportedly on hold pending his decision to continue running.<br />
+        An increasing number of Democrats voiced their concerns about Biden's candidacy. Former Vice President's lackluster showing during a crucial debate against then-President Donald Trump only amplified these apprehensions.<br />
+        <br />
+        Trump, who mocked Biden on social media during the press conference, later said that the gaffe involving Ukrainian President Volodymyr Zelenskyy was "unpardonable." However, he added that Biden "shouldn't allow complete losers like George Clooney, under the total auspices and control of Barack Hussein Obama, to push him out of office. That must be his decision, and his decision alone," alluding to reports suggesting former President Obama's involvement with the dissenting voices within Biden's camp.<br />
+        <br />
+        <em>For more news like this visit TOI. Get all the Latest News, City News, India News, Business News, and Sports News. For Entertainment News, TV News, and Lifestyle Tips visit Etimes</em>
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
+    - ID: "d1fa7fdb-ad15-460d-843d-5a76ad3c8c94"
+      Hint: ProductCardBackgroundImage
+      Value: |
+        <image mediaid="{D0E7FFA5-356A-4F88-910F-951DEC33DD0B}" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240620T051625Z
+      Value: 20240713T081213Z

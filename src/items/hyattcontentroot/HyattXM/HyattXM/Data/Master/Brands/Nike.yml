@@ -9,18 +9,28 @@ Languages:
   - Version: 1
     Fields:
     - ID: "0960d932-3d21-49c5-8c20-dd7411699666"
-      Hint: BrandName
-      Value: Nike
+      Hint: ProductCardTitle
+      Value: Convention of Parms
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240620T051617Z
+    - ID: "8082a366-ca30-4b13-83ca-af02fcfdf8ce"
+      Hint: CardHighlights
+      Value: |
+        {14AA3AFE-E27A-4F1E-ADF5-CF4237CB09C6}
+        {A8848228-EF7C-432F-9029-E9C6C3412D56}
+        {73CF07B9-8EB1-40E7-8285-E97671D41D1B}
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fb107cce-78bb-45e7-9a65-7f9d7ad9b3e0"
+      Value: "24393239-f008-4a7b-89d2-ad2c69032bf4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
+    - ID: "d1fa7fdb-ad15-460d-843d-5a76ad3c8c94"
+      Hint: ProductCardBackgroundImage
+      Value: |
+        <image mediaid="{6631DFAF-6138-4548-ABD8-30916B2203E7}" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240620T051617Z
+      Value: 20240712T023814Z

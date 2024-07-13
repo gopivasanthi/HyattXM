@@ -1,8 +1,18 @@
 ﻿---
-ID: "9a394aec-1671-4eba-8645-63b5f77e9c27"
+ID: "f7dee5b8-2fa5-46dd-85c6-7b81c62b0323"
 Parent: "22c1f602-d624-43e8-bbbf-08eb6b3975a6"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Project/HyattXM/HyattProduct1
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/16x16/shoppingcart.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{4B72E714-B263-4BBA-82F5-383E50CA9D96}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{0E99EC4E-05FA-4A8C-B8A3-F362E00EC129}"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20240620T045800Z
+      Value: 20240614T045842Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +31,11 @@ Languages:
         sitecore\gopi@altudo.co
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4b356901-8d5d-4efc-812b-418c05a95946"
+      Value: "83a51075-0441-499c-9a1d-c529b3e0fb53"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240620T045800Z
+      Value: 20240620T045751Z

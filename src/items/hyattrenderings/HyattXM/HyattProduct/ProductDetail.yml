@@ -6,10 +6,50 @@ Path: /sitecore/layout/Renderings/Project/HyattXM/HyattProduct/ProductDetail
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: TestProductDetails
+  Value: TestProductDetail
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: SXA_MDI/16x16/Promo.png
+- ID: "17bb046a-a32a-41b3-8315-81217947611b"
+  Hint: ComponentQuery
+  Value: |
+    query GetProductCard($datasource:String!,$language:String!){
+      item(language:$language,path:$datasource){
+        ... on ProductDetail{
+          brand{
+            ProductBrandCards:targetItems{
+    					... on ProductBrandCard{
+                productCardTitle{
+                  value
+                }
+                productCardBackgroundImageUrl:productCardBackgroundImage{
+                  value:src
+                }
+                productCardBackgroundImageAlt:productCardBackgroundImage{
+                  value:alt
+                }
+                cardHighlights{
+                  CardHighlightItems:targetItems{
+                    name
+                    ... on ProductBrandHighlights{
+                      highlightText{
+                        value
+                      }
+                      highlightImageUrl:highlightImage{
+                        value:src
+                      }
+                      highlightImageAlt:highlightImage{
+                        value:alt
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Project/HyattXM/HyattProduct/ProductDetail
@@ -74,14 +114,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5cbd0acb-e08b-4ede-9ba8-a199dd9950c8"
+      Value: "e1cb2ed3-05ad-4119-b75d-9a352cced6ae"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240625T054906Z
+      Value: 20240712T212205Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
