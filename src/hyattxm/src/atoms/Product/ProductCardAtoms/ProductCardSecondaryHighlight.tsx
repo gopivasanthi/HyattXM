@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProductCardHighlightFields } from 'src/types/Product/ProductCard/ProductCardHighlightFields';
 
-export const Default = (props: ProductCardHighlightFields): JSX.Element => {
+export const ProductCardSecondaryHighlight = (props: ProductCardHighlightFields): JSX.Element => {
   return (
     <li className="d-flex align-items-center me-3">
       <img
@@ -15,3 +15,5 @@ export const Default = (props: ProductCardHighlightFields): JSX.Element => {
     </li>
   );
 };
+
+export default ProductCardSecondaryHighlight;

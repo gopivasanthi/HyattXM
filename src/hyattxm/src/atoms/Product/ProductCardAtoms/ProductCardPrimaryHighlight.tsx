@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProductCardHighlightFields } from 'src/types/Product/ProductCard/ProductCardHighlightFields';
 
-export const Default = (props: ProductCardHighlightFields): JSX.Element => {
+export const ProductCardPrimaryHighlight = (props: ProductCardHighlightFields): JSX.Element => {
   return (
     <li className="me-auto">
       <img
@@ -14,3 +14,5 @@ export const Default = (props: ProductCardHighlightFields): JSX.Element => {
     </li>
   );
 };
+
+export default ProductCardPrimaryHighlight;

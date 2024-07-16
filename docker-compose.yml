@@ -86,6 +86,7 @@ services:
     environment:
       host: ${CM_HOST}
       RENDERING_HOST_INTERNAL_URI: ${RENDERING_HOST_INTERNAL_URI}
+      SITECORE_HTTP_CUSTOM_HEADERS: Access-Control-Allow-Origin:http://localhost:3000,Access-Control-Allow-Methods:GET,POST,OPTIONS,Access-Control-Allow-Headers:Content-Type,Authorization,Access-Control-Allow-Credentials:true
       Sitecore_AppSettings_instanceNameMode:define: default
       Sitecore_ConnectionStrings_Core: Data Source=${SQL_SERVER};Initial Catalog=${SQL_DATABASE_PREFIX}.Core;User ID=${SQL_SA_LOGIN};Password=${SQL_SA_PASSWORD}
       Sitecore_ConnectionStrings_Security: Data Source=${SQL_SERVER};Initial Catalog=${SQL_DATABASE_PREFIX}.Core;User ID=${SQL_SA_LOGIN};Password=${SQL_SA_PASSWORD}

@@ -1,19 +1,44 @@
 import React from 'react';
-import { ComponentParams, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
+import { gql, useQuery } from '@apollo/client';
+import testappolloclient from 'src/lib/testgraphql/testappolloclient';
 
-interface TestProductCardModelProps {
-  rendering: ComponentRendering & { params: ComponentParams };
-  params: ComponentParams;
+interface Sitecoredataitem {
+  data: {
+    itemresult: {
+      id: string;
+      name: string;
+    };
+  };
 }
 
-export const Default = (props: TestProductCardModelProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
+const GET_ITEMS_QUERY = gql`
+  query {
+    itemresult: item(
+      language: "en"
+      path: "/sitecore/content/HyattXM/HyattXM/Data/ProductDetail/Kids-Shoes"
+    ) {
+      id
+      name
+    }
+  }
+`;
 
+export const TestProductCardModel = () => {
+  const { loading, error, data } = useQuery(GET_ITEMS_QUERY, { client: testappolloclient });
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error: {error.message}</p>;
+
+  if (!data) return <p>No data</p>;
+
+  console.log(data);
   return (
-    <div className={`component ${props.params.styles}`} id={id ? id : undefined}>
+    <div>
       <div className="component-content">
         <p>TestProductCardModel Component</p>
       </div>
     </div>
   );
 };
+
+export default TestProductCardModel;
