@@ -2,14 +2,12 @@ import React from 'react';
 
 import TestProductCardBackground from 'src/atoms/Product/TestAtoms/TestProductCardBackground';
 import TestProductCardHighlights from 'src/atoms/Product/TestAtoms/TestProductCardHighlights';
-import TestProductCardModel from 'src/atoms/Product/TestAtoms/TestProductCardModel';
 import TestProductCardPrimaryHighlights from 'src/atoms/Product/TestAtoms/TestProductCardPrimaryHighlights';
 import { TestProductCardFields } from 'src/types/TestProductCardFields';
 
 export const TestCardHighlight = (props: TestProductCardFields): JSX.Element => {
   return (
     <div className="col">
-      <TestProductCardModel />
       <div
         className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
         style={{ backgroundImage: `url(${props.productCardBackgroundImageUrl.value})` }}
