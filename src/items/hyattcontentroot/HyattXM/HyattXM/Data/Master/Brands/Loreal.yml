@@ -11,9 +11,15 @@ Languages:
     - ID: "0960d932-3d21-49c5-8c20-dd7411699666"
       Hint: ProductCardTitle
       Value: All the type required
+    - ID: "2032d15e-9c94-41e7-9fc8-331a4ece9fd0"
+      Hint: BasicFeatures
+      Value: "{CED22718-EFD2-484F-B047-4BA8120B8D53}"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240620T051634Z
+    - ID: "6880fff9-0fbb-473b-8513-c3b7de7058c2"
+      Hint: PrimaryColor
+      Value: "{B7C74B22-C1B4-4834-A030-A93010E8112A}"
     - ID: "8082a366-ca30-4b13-83ca-af02fcfdf8ce"
       Hint: CardHighlights
       Value: |
@@ -22,7 +28,7 @@ Languages:
         {662BB077-661E-4577-841F-C1145DF3DFC1}
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5ded67f5-4721-4332-acfd-3234794ebeac"
+      Value: "cd19395b-36d3-4515-9a1b-03bbcacd1ae5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -31,6 +37,12 @@ Languages:
       Hint: ProductCardBackgroundImage
       Value: |
         <image mediaid="{FBF1E0AD-4C51-46FC-A30A-97083A573C44}" />
+    - ID: "d44dbf49-95fd-463f-89ef-0ef5631fa513"
+      Hint: Offers
+      Value: "{B14833DC-07B3-4A3E-9DF4-D25BEBFCCE5D}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240712T023831Z
+      Value: 20240716T154013Z
+    - ID: "dca31f19-75e6-464c-9188-ec749dd338bc"
+      Hint: BasicSpecifications
+      Value: "{DDC6A142-3807-439D-8834-57C72CA81940}"

@@ -13,14 +13,27 @@ Languages:
       Value: 20240620T051747Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a8670ba5-66a0-4170-afab-5a564046d1d5"
+      Value: "202b89df-53c6-4fc0-814f-07222bae7aa5"
+    - ID: "a4147e3e-7c05-476e-8cad-a1066793bc78"
+      Hint: OfferEndDate
+      Value: "25-Dec-2024"
     - ID: "a9632400-fba6-4e41-9cf2-f11db6b474c8"
       Hint: OfferReference
       Value: Christmas Offers
+    - ID: "b12d3ed1-90d8-411e-9064-b8b7e0a2b7ea"
+      Hint: OfferStartDate
+      Value: "25-Dec-2024"
+    - ID: "b5b46bd6-1f05-4cfb-b703-c3641e446ede"
+      Hint: OfferPercentage
+      Value: 90%
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240620T051747Z
+      Value: 20240716T033334Z
+    - ID: "f4cd12cc-351c-4f8f-ae15-a9b3592e4f33"
+      Hint: OfferImage
+      Value: |
+        <image mediaid="{03B98FD3-C8E1-4010-A057-3CC99B0321FD}" />

@@ -1,0 +1,26 @@
+﻿---
+ID: "b393e388-8368-441e-aa72-cb9c0a975777"
+Parent: "f5c756b7-02a9-442c-9ad2-9a26ab40fdd4"
+Template: "9e3271f8-7ba8-43d8-8aa8-a250a6af7b28"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Master/Type/Business
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T030753Z
+    - ID: "515a99d3-6432-474f-9f7d-d09cc65a1262"
+      Hint: InsuranceTypeName
+      Value: Business
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cfa168e1-7906-4d43-8c6f-c5892272361d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T030753Z

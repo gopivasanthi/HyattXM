@@ -12,6 +12,8 @@ SharedFields:
     {8D5383A6-1FE3-4EB5-8584-12FA2AC287B7}
     {F2004503-90EB-4033-9DED-10F0408EBCF1}
     {C627069F-E3CE-416D-ACD0-174C73B3E2B2}
+    {D5768C36-3172-439D-B4CB-72A7930831F5}
+    {75F9B2EA-FF11-4A14-BDB1-BB16B6ECD97E}
 Languages:
 - Language: en
   Versions:
@@ -30,11 +32,11 @@ Languages:
         sitecore\gopi@altudo.co
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c959d2d9-ed5a-469f-a32a-54591b26f0e8"
+      Value: "40f5f59d-aa5e-45ae-aaee-7d64342a5f12"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240620T051247Z
+      Value: 20240717T030158Z

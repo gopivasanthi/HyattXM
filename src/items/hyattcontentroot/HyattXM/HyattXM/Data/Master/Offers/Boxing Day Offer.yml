@@ -13,14 +13,27 @@ Languages:
       Value: 20240620T051757Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ba5b9d0c-7a51-4a49-af6e-a5ea7ea09cfb"
+      Value: "b9caf770-125b-41c4-840a-d3b528a552ea"
+    - ID: "a4147e3e-7c05-476e-8cad-a1066793bc78"
+      Hint: OfferEndDate
+      Value: "09-March-2025"
     - ID: "a9632400-fba6-4e41-9cf2-f11db6b474c8"
       Hint: OfferReference
       Value: Boxing Day Offer
+    - ID: "b12d3ed1-90d8-411e-9064-b8b7e0a2b7ea"
+      Hint: OfferStartDate
+      Value: "09-March-2024"
+    - ID: "b5b46bd6-1f05-4cfb-b703-c3641e446ede"
+      Hint: OfferPercentage
+      Value: 80%
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240620T051757Z
+      Value: 20240716T033220Z
+    - ID: "f4cd12cc-351c-4f8f-ae15-a9b3592e4f33"
+      Hint: OfferImage
+      Value: |
+        <image mediaid="{178ADC7C-28BD-4356-A1E0-FAC53DA52B4F}" />

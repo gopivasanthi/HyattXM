@@ -1,0 +1,26 @@
+﻿---
+ID: "be467d3b-2ea0-4c0a-adeb-a0c8dbb5e92f"
+Parent: "d8e06b81-f9fb-4ca4-b038-3fd5fc2d92c2"
+Template: "4ccae68f-39ad-4a49-a1a8-50ddfd804574"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Master/Scope/Individual
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T030716Z
+    - ID: "4ca4cacb-54d6-4301-a03e-345f647c23bc"
+      Hint: ScopeName
+      Value: Individual
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f55f5c1c-3b35-4a66-9740-2f2cfcc0c47f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T030716Z

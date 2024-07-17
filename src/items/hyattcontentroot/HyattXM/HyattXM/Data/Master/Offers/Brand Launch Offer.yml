@@ -13,14 +13,27 @@ Languages:
       Value: 20240620T051809Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "586467a2-5b25-4a3b-b020-cc05b2cd5bb4"
+      Value: "a9f2c144-64c8-4959-9f0e-492f5e77e0bc"
+    - ID: "a4147e3e-7c05-476e-8cad-a1066793bc78"
+      Hint: OfferEndDate
+      Value: "10-Sep-2024"
     - ID: "a9632400-fba6-4e41-9cf2-f11db6b474c8"
       Hint: OfferReference
       Value: Brand Launch Offer
+    - ID: "b12d3ed1-90d8-411e-9064-b8b7e0a2b7ea"
+      Hint: OfferStartDate
+      Value: "09-Sep-2024"
+    - ID: "b5b46bd6-1f05-4cfb-b703-c3641e446ede"
+      Hint: OfferPercentage
+      Value: 50%
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240620T051809Z
+      Value: 20240716T033253Z
+    - ID: "f4cd12cc-351c-4f8f-ae15-a9b3592e4f33"
+      Hint: OfferImage
+      Value: |
+        <image mediaid="{76EB033E-780D-45F5-BF48-E447204B88FA}" alt="test" height="" width="" hspace="" vspace="" />

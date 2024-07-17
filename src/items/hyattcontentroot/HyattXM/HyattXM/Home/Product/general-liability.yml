@@ -1,0 +1,51 @@
+﻿---
+ID: "46625fe7-abb4-4b0e-8c3a-61cf5827b4bd"
+Parent: "05d73879-8381-463d-b244-9bb82a241613"
+Template: "9cda0e3b-7f23-4de1-8501-38e460e613e4"
+Path: "/sitecore/content/HyattXM/HyattXM/Home/Product/general-liability"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{E7FA0ED9-5F04-4EBC-A471-DDA7CF30413C}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T025543Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "general-liability"
+    - ID: "5d0db913-9528-428a-908f-534e69ad1448"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{9DCC85FD-F0F4-486D-9C31-9F0F9C28EBC0}" />
+    - ID: "631ef074-b21c-433f-ae89-a130b4d1f522"
+      Hint: Title
+      Value: General liability
+    - ID: "6fc11e5f-4aa3-4c4a-8870-b247985e28c9"
+      Hint: InsuranceScope
+      Value: "{91C6DEE7-CA08-4FDC-84A9-82895933F19C}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8c86a620-c48b-4d9f-ae87-3dbe52556c2a"
+    - ID: "b567815e-96eb-49f8-9ddb-1592fa4a4632"
+      Hint: InsuranceType
+      Value: "{B393E388-8368-441E-AA72-CB9C0A975777}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T054915Z
+    - ID: "ebc6b8b5-9ec1-496b-b29d-605b8d34c738"
+      Hint: Content
+      Value: |
+        <h2 style="color: #3a5a78; background-color: #ffffff; margin-top: 0px; margin-bottom: 10px; line-height: 1.1;"><a href="https://www.thehartford.com/liability-insurance" data-dl="{'category' : 'Content Links' , 'action' : 'Main Content', 'label' : 'What Is Liability Insurance?', 'position' : 'Main Content', 'widget' : 'Full Width Row' }" style="color: #216bab; background-color: transparent; margin-bottom: 0px;">What Is Liability Insurance?</a></h2>
+        <div style="color: #484848; background-color: #ffffff;"><a href="https://www.thehartford.com/general-liability-insurance" data-dl="{'category' : 'Content Links' , 'action' : 'Main Content', 'label' : 'General liability insurance', 'position' : 'Main Content', 'widget' : 'Full Width Row' }" style="color: #216bab; background-color: transparent; margin-bottom: 0px;">General liability insurance</a>&nbsp;(GLI) can help cover claims that your business caused bodily injury or property damage. General liability insurance (GLI) is sometimes called&nbsp;<a href="https://www.thehartford.com/general-liability-insurance/business-liability-insurance" data-dl="{'category' : 'Content Links' , 'action' : 'Main Content', 'label' : 'business liability insurance', 'position' : 'Main Content', 'widget' : 'Full Width Row' }" style="color: #216bab; background-color: transparent; margin-bottom: 0px;">business liability insurance</a>&nbsp;or&nbsp;<a href="https://www.thehartford.com/general-liability-insurance/commercial-general-liability-insurance" data-dl="{'category' : 'Content Links' , 'action' : 'Main Content', 'label' : 'commercial general liability insurance', 'position' : 'Main Content', 'widget' : 'Full Width Row' }" style="color: #216bab; background-color: transparent; margin-bottom: 0px;">commercial general liability insurance</a>&nbsp;or comprehensive general liability (CGL). You can get GLI as a standalone policy or bundle it with other key coverages through a&nbsp;<a href="https://www.thehartford.com/business-owners-policy" data-dl="{'category' : 'Content Links' , 'action' : 'Main Content', 'label' : 'Business Owner’s Policy (BOP)', 'position' : 'Main Content', 'widget' : 'Full Width Row' }" style="color: #216bab; background-color: transparent; margin-bottom: 0px;">Business Owner&rsquo;s Policy (BOP)</a>.</div>
+        <div style="color: #484848; background-color: #ffffff;">&nbsp;</div>
+        <div style="color: #484848; background-color: #ffffff;"><img alt="what is general liability insurance" class="img-align-left" height="130" src="https://ewcstatic.thehartford.com/thehartford/the_hartford/pubimgs/S/higcom-image-sc-seo-2-women-doorway-black-and-older-white.jpg" width="200" style="height: auto; width: auto; margin: 0px 10px 10px auto; padding: 4px 10px 10px 0px; border: 0px; float: left;" />We&rsquo;re here to help you understand what business liability insurance coverages your company may need. Whether it&rsquo;s learning what general liability insurance covers or getting a&nbsp;<a aria-label="general liability insurance quote" href="https://quotesmallbusiness.thehartford.com/quote-and-buy/quote-oqp?prcd=76210775&amp;Tcode=TH040057" title="general liability insurance quote" data-dl-cat="Quote - Business" data-vars-cat="Get a quote today" data-dl-act="Submit" data-dl="{'category' : 'Quote - Business' , 'action' : 'Submit', 'label' : 'general liability insurance quote', 'position' : 'Main Content', 'widget' : 'Full Width Row' }" style="color: #216bab; background-color: transparent; margin-bottom: 0px;">general liability insurance quote</a>, we&rsquo;re here to help.</div>

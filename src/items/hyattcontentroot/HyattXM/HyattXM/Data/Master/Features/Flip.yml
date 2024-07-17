@@ -11,16 +11,23 @@ Languages:
     - ID: "02425db7-fa40-47bc-b39c-413f6de75d32"
       Hint: FeatureReference
       Value: Flipl
+    - ID: "0409d121-2436-4762-8022-9a3798882a9f"
+      Hint: FeatureImage
+      Value: |
+        <image mediaid="{7DC4262C-8DF4-4A34-9D65-ACD13F695168}" alt="test" height="" width="" hspace="" vspace="" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240620T051725Z
+    - ID: "4c16298e-e3f1-497b-9d7b-5d31e54697ec"
+      Hint: FeatureBrief
+      Value: Flips automatically
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f6776c71-1926-4fe0-8b6f-11b8eabbaf10"
+      Value: "3c6876c0-a578-414f-b40e-a7c1b4ddee56"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240620T051729Z
+      Value: 20240716T033043Z

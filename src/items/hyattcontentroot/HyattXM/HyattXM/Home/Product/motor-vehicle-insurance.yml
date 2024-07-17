@@ -1,0 +1,85 @@
+﻿---
+ID: "acc67ed4-a228-4d13-bf5e-643728a8bf5d"
+Parent: "05d73879-8381-463d-b244-9bb82a241613"
+Template: "9cda0e3b-7f23-4de1-8501-38e460e613e4"
+Path: "/sitecore/content/HyattXM/HyattXM/Home/Product/motor-vehicle-insurance"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{6530FF97-7EE6-4875-ABB8-9B371B5D0729}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T031343Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "motor-vehicle-insurance"
+    - ID: "5d0db913-9528-428a-908f-534e69ad1448"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8464D19D-6565-4B49-A4DA-C554B9B8B61D}" />
+    - ID: "631ef074-b21c-433f-ae89-a130b4d1f522"
+      Hint: Title
+      Value: Motor vehicle insurance
+    - ID: "6fc11e5f-4aa3-4c4a-8870-b247985e28c9"
+      Hint: InsuranceScope
+      Value: "{BE467D3B-2EA0-4C0A-ADEB-A0C8DBB5E92F}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8d241bdc-9f7f-44c4-b1f5-225fb149272e"
+    - ID: "b567815e-96eb-49f8-9ddb-1592fa4a4632"
+      Hint: InsuranceType
+      Value: "{E8282D8D-B8B4-4645-9F75-4C67817B3E75}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T055144Z
+    - ID: "ebc6b8b5-9ec1-496b-b29d-605b8d34c738"
+      Hint: Content
+      Value: |
+        <p style="color: #111111; background-color: #ffffff; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Motor vehicle insurance</span>&nbsp;is essential for anyone who owns a car. Here&rsquo;s what you need to know:</p>
+        <ol style="color: #111111; background-color: #ffffff; margin: 12px 0px 0px;">
+            <li>
+            <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Coverage Types</span>:</p>
+            <ul style="margin: 12px 0px 0px;">
+                <li><strong>Liability Coverage</strong>: Pays for damages or injuries to others if you&rsquo;re at fault in an accident.</li>
+                <li><strong>Collision Coverage</strong>: Covers damage to your vehicle from collisions.</li>
+                <li><strong>Comprehensive Coverage</strong>: Protects against non-collision incidents (e.g., theft, vandalism, natural disasters).</li>
+                <li><strong>Uninsured/Underinsured Motorist Coverage</strong>: Helps if you&rsquo;re hit by an uninsured or underinsured driver.</li>
+            </ul>
+            </li>
+            <li>
+            <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Factors Affecting Premiums</span>:</p>
+            <ul style="margin: 12px 0px 0px;">
+                <li><strong>Driving Record</strong>: Safe drivers pay less.</li>
+                <li><strong>Vehicle Type</strong>: Expensive cars have higher premiums.</li>
+                <li><strong>Location</strong>: Urban areas may cost more.</li>
+                <li><strong>Coverage Level</strong>: Higher coverage means higher premiums.</li>
+                <li><strong>Deductibles</strong>: Lower deductibles increase premiums.</li>
+            </ul>
+            </li>
+            <li>
+            <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Quotes and Comparison</span>:</p>
+            <ul style="margin: 12px 0px 0px;">
+                <li>Get quotes from multiple insurers to compare rates.</li>
+                <li>Consider factors like coverage limits and deductibles.</li>
+                <li>Websites like&nbsp;<a rel="noopener noreferrer" href="https://www.thezebra.com/car-insurance-quotes/" class="ac-anchor" target="_blank" is="cib-link" appearance="system-link" h="ID=SERP,5026.1" style="color: var(--cib-color-foreground-system-link-primary); line-height: inherit;">The Zebra</a>&nbsp;can help you compare quotes.</li>
+            </ul>
+            </li>
+            <li>
+            <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">State Requirements</span>:</p>
+            <ul style="margin: 12px 0px 0px;">
+                <li>Each state has minimum coverage requirements.</li>
+                <li>Check your state&rsquo;s Department of Motor Vehicles website.</li>
+            </ul>
+            </li>
+        </ol>
+        <p style="color: #111111; background-color: #ffffff; margin-top: 12px; margin-right: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);">Remember, having auto insurance provides financial protection and peace of mind while driving.</p>

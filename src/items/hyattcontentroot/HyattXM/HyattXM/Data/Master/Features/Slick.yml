@@ -11,16 +11,23 @@ Languages:
     - ID: "02425db7-fa40-47bc-b39c-413f6de75d32"
       Hint: FeatureReference
       Value: Slick
+    - ID: "0409d121-2436-4762-8022-9a3798882a9f"
+      Hint: FeatureImage
+      Value: |
+        <image mediaid="{0D9C2383-BC1F-48EF-81E4-DD8307BC6E55}" alt="test" height="" width="" hspace="" vspace="" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240620T051719Z
+    - ID: "4c16298e-e3f1-497b-9d7b-5d31e54697ec"
+      Hint: FeatureBrief
+      Value: Slick look
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cf4ea26a-f1ea-4b1a-afb4-109bea8a1219"
+      Value: "ade2f58e-de3a-4821-af81-6e69c43d99fa"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240620T051719Z
+      Value: 20240716T033118Z

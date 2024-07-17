@@ -1,6 +1,7 @@
 import { ProductCardHighlightFields } from "./ProductCardHighlightFields";
 
 export interface ProductCardFields{
+    productCardName:string;
     productCardTitle:{
         value:string;
     }

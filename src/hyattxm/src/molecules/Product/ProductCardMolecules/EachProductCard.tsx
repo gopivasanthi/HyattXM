@@ -1,4 +1,3 @@
-import React from 'react';
 import ProductCardPrimaryHighlight from 'src/atoms/Product/ProductCardAtoms/ProductCardPrimaryHighlight';
 import ProductCardSecondaryHighlight from 'src/atoms/Product/ProductCardAtoms/ProductCardSecondaryHighlight';
 import ProductCardTitle from 'src/atoms/Product/ProductCardAtoms/ProductCardTitle';

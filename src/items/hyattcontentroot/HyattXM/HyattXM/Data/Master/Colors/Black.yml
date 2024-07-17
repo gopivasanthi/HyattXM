@@ -8,19 +8,26 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "1bdd6907-ee59-4801-bb49-b9177356ebae"
+      Hint: ColorRGB
+      Value: #000000
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240620T051709Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ce42bb96-7b11-4b04-a59d-06413a12a591"
+      Value: "dd6bc8f7-77f5-4ba5-bc27-ca3c318e1c00"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240620T051709Z
+      Value: 20240716T032744Z
+    - ID: "dd15b8aa-ec75-4dd2-b854-d63fe48d1252"
+      Hint: ColorImageReference
+      Value: |
+        <image mediaid="{4DCE8C88-4128-42E6-969A-E3375EDC3DCA}" />
     - ID: "f54d8ad0-b76b-4e39-bfb8-f4c5166a1828"
       Hint: ColorRGBName
       Value: Black

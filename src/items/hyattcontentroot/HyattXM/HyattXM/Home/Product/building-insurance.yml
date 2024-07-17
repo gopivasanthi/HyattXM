@@ -1,0 +1,76 @@
+﻿---
+ID: "27981ed7-a4f0-450b-a58c-ab23ad39ea79"
+Parent: "05d73879-8381-463d-b244-9bb82a241613"
+Template: "9cda0e3b-7f23-4de1-8501-38e460e613e4"
+Path: "/sitecore/content/HyattXM/HyattXM/Home/Product/building-insurance"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B4F1A4A1-C2FE-43D1-A3CD-677463A9141F}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T031438Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "building-insurance"
+    - ID: "5d0db913-9528-428a-908f-534e69ad1448"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0318FFD4-0BEE-4EED-B08C-8F80B58EEF11}" />
+    - ID: "631ef074-b21c-433f-ae89-a130b4d1f522"
+      Hint: Title
+      Value: Building insurance
+    - ID: "6fc11e5f-4aa3-4c4a-8870-b247985e28c9"
+      Hint: InsuranceScope
+      Value: "{91C6DEE7-CA08-4FDC-84A9-82895933F19C}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b9ea8c00-afc4-4795-aaee-84d3621e9707"
+    - ID: "b567815e-96eb-49f8-9ddb-1592fa4a4632"
+      Hint: InsuranceType
+      Value: "{E8282D8D-B8B4-4645-9F75-4C67817B3E75}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T054557Z
+    - ID: "ebc6b8b5-9ec1-496b-b29d-605b8d34c738"
+      Hint: Content
+      Value: |
+        <p style="color: #111111; background-color: #ffffff; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Building insurance</span>&nbsp;provides financial protection for landlords who rent buildings to commercial tenants. Here&rsquo;s what you need to know:</p>
+        <ol style="color: #111111; background-color: #ffffff; margin: 12px 0px 0px;">
+            <li>
+            <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Coverage</span>: Building insurance covers the physical structure, including walls, floors, ceilings, and permanently installed fixtures or equipment. It protects against:</p>
+            <ul style="margin: 12px 0px 0px;">
+                <li><strong>Fires</strong></li>
+                <li><strong>Windstorms</strong></li>
+                <li><strong>Natural disasters</strong></li>
+                <li><strong>Burst pipes</strong></li>
+                <li><strong>Vandalism</strong></li>
+            </ul>
+            </li>
+            <li>
+            <p style="margin-right: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Exclusions</span>: It doesn&rsquo;t cover office equipment or movable property. For broader coverage, consider standard property insurance.</p>
+            </li>
+            <li>
+            <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Difference from Property Insurance</span>:</p>
+            <ul style="margin: 12px 0px 0px;">
+                <li><strong>Building Insurance</strong>: Covers the entire physical property and land.</li>
+                <li><strong>Property Insurance</strong>: Includes everything inside and outside the building (electronics, furniture, inventory, etc.).</li>
+            </ul>
+            </li>
+            <li>
+            <p style="margin-right: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Who Needs It?</span>: Commercial landlords benefit from building insurance to reduce risk and cover costly repairs.</p>
+            </li>
+            <li>
+            <p style="margin-right: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Getting Coverage</span>: Landlords can add building insurance to their lessor&rsquo;s risk-only insurance (LRO), which complements general liability insurance.&nbsp;<a rel="noopener noreferrer" href="https://www.bing.com/aclick?ld=e83oKfUus0lFlVj1t4to99sDVUCUykTOAZut5VBzmQkI7NKjGAHLCiyKU74txi8T8hzlQw1ESDEG5aZm6584J3y8vshv8EzOiauMsyFUjn5maVILY1AVNILkOGP1jsraOpKxBQTg7k1lguBPfzmPB3ChuVnWe--IrOAXXw7-Hv5wKTGjMP&amp;u=aHR0cHMlM2ElMmYlMmZ3d3cuaGRmY2VyZ28uY29tJTJmY2FtcGFpZ25zJTJmaG9tZS1pbnN1cmFuY2UtZGV0YWlsJTNmdXRtX3NvdXJjZSUzZGJpbmdfc2VhcmNoJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEhvbWVfU2VhcmNoX0NvcmVfTmVldi1QaHJhc2VfRGV0YWlsLUVYUCUyNnV0bV9hZGdyb3VwJTNkSG9tZS1JbnN1cmFuY2UlMjZhZGlkJTNkJTI2dXRtX3Rlcm0lM2RidWlsZGluZyUyNTIwaW5zdXJhbmNlJTI2dXRtX25ldHdvcmslM2RvJTI2dXRtX21hdGNodHlwZSUzZGUlMjZ1dG1fZGV2aWNlJTNkYyUyNnV0bV9sb2NhdGlvbiUzZDE2NTglMjZ1dG1fc2l0ZWxpbmslM2QlN2JzaXRlbGluayU3ZCUyNnV0bV9wbGFjZW1lbnQlM2QlMjZjaSUzZGJpbmdzZWFyY2glMjZTRU0lM2QxJTI2bXNjbGtpZCUzZDM0ZGIxNjI0ZjgyZTFiYmI4YjEzNzBiM2MyNTNiZjlm&amp;rlid=34db1624f82e1bbb8b1370b3c253bf9f" class="tooltip-target" data-citationid="24341ca9-d434-0c29-e90c-9b3a0e2099aa-37-group" h="ID=SERP.5027_20,16888.1,Ads" target="_blank" style="color: inherit; border-bottom: 2px solid transparent;">LRO protects against liability claims, while building insurance safeguards the property itself</a></p>
+            </li>
+        </ol>

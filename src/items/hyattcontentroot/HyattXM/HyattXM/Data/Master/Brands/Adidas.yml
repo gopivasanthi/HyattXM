@@ -10,10 +10,16 @@ Languages:
     Fields:
     - ID: "0960d932-3d21-49c5-8c20-dd7411699666"
       Hint: ProductCardTitle
-      Value: Making changes with essense
+      Value: Adidas
+    - ID: "2032d15e-9c94-41e7-9fc8-331a4ece9fd0"
+      Hint: BasicFeatures
+      Value: "{AE823E08-3588-40CB-87DE-17BDD5093817}"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240620T051625Z
+    - ID: "6880fff9-0fbb-473b-8513-c3b7de7058c2"
+      Hint: PrimaryColor
+      Value: "{B2B2E4C2-12E9-43A9-8192-F90109FDE3A8}"
     - ID: "8082a366-ca30-4b13-83ca-af02fcfdf8ce"
       Hint: CardHighlights
       Value: |
@@ -22,7 +28,7 @@ Languages:
         {193CC45A-175F-4BE8-8F65-0FAC16E254BC}
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "851d6685-7155-4c75-b2e5-ecb125e244ae"
+      Value: "2ba9b0fc-8123-46e7-9011-be9e6e887efe"
     - ID: "97fdf935-a5b1-46e5-92b9-b609b084a093"
       Hint: ProductBrandDescription
       Value: |
@@ -50,6 +56,14 @@ Languages:
       Hint: ProductCardBackgroundImage
       Value: |
         <image mediaid="{D0E7FFA5-356A-4F88-910F-951DEC33DD0B}" />
+    - ID: "d44dbf49-95fd-463f-89ef-0ef5631fa513"
+      Hint: Offers
+      Value: "{B14833DC-07B3-4A3E-9DF4-D25BEBFCCE5D}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240713T081213Z
+      Value: 20240716T035235Z
+    - ID: "dca31f19-75e6-464c-9188-ec749dd338bc"
+      Hint: BasicSpecifications
+      Value: |
+        {501A1531-4FD3-4DF6-8315-3DBAD14EBA32}
+        {62841365-A70C-4F6A-8422-CB5C7EF894F8}

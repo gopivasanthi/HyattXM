@@ -1,0 +1,48 @@
+﻿---
+ID: "c89aa51b-6ddc-4466-a4e3-9ac350f2272b"
+Parent: "05d73879-8381-463d-b244-9bb82a241613"
+Template: "9cda0e3b-7f23-4de1-8501-38e460e613e4"
+Path: "/sitecore/content/HyattXM/HyattXM/Home/Product/inland-marine-insurance"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1B0FD879-CD16-49E5-ABDD-9FDED41CB47D}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T025406Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "inland-marine-insurance"
+    - ID: "5d0db913-9528-428a-908f-534e69ad1448"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{134C4290-F3D1-4E92-9286-1EF7AB911ABF}" />
+    - ID: "631ef074-b21c-433f-ae89-a130b4d1f522"
+      Hint: Title
+      Value: Inland marine insurance
+    - ID: "6fc11e5f-4aa3-4c4a-8870-b247985e28c9"
+      Hint: InsuranceScope
+      Value: "{BE467D3B-2EA0-4C0A-ADEB-A0C8DBB5E92F}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5bf3c9e4-c513-491f-9b03-63055c332669"
+    - ID: "b567815e-96eb-49f8-9ddb-1592fa4a4632"
+      Hint: InsuranceType
+      Value: "{B393E388-8368-441E-AA72-CB9C0A975777}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T055019Z
+    - ID: "ebc6b8b5-9ec1-496b-b29d-605b8d34c738"
+      Hint: Content
+      Value: |
+        <a rel="noopener noreferrer" class="sh-anchor" data-tg-citations="1;2;3;4" target="_blank" href="https://www.bing.com/ck/a?!&amp;&amp;p=54cfcf1106a52f05JmltdHM9MTcyMTA4ODAwMCZpZ3VpZD0zZmQwYjVlNS03NDRlLTY5NmQtMWZhMy1hMTdlNzUzZDY4OTUmaW5zaWQ9NTk4Nw&amp;ptn=3&amp;ver=2&amp;hsh=3&amp;fclid=3fd0b5e5-744e-696d-1fa3-a17e753d6895&amp;psq=inland+marine+insurance&amp;u=a1aHR0cHM6Ly90aXZseS5jb20vaW5sYW5kLW1hcmluZS1pbnN1cmFuY2U&amp;ntb=1" h="ID=SERP,5987.1" data-tgpsgid="d_anstgsen0" style="color: #4007a2; background-color: #ffffff;">Inland marine insurance is a type of business insurance that&nbsp;<span>covers tools, equipment, and other cargo when they are in transit over land or while in storage off-site</span></a><a rel="noopener noreferrer" class="sup-target" target="_blank" href="https://www.bing.com/ck/a?!&amp;&amp;p=e01747c8dc2a569cJmltdHM9MTcyMTA4ODAwMCZpZ3VpZD0zZmQwYjVlNS03NDRlLTY5NmQtMWZhMy1hMTdlNzUzZDY4OTUmaW5zaWQ9NTk4OA&amp;ptn=3&amp;ver=2&amp;hsh=3&amp;fclid=3fd0b5e5-744e-696d-1fa3-a17e753d6895&amp;psq=inland+marine+insurance&amp;u=a1aHR0cHM6Ly90aXZseS5jb20vaW5sYW5kLW1hcmluZS1pbnN1cmFuY2U&amp;ntb=1" h="ID=SERP,5988.1" data-tgpsgid="d_anstgpsg1" style="color: #4007a2; background-color: #ffffff;"><span style="color: #123bb6; background: #d1dbfa; height: 14px; margin: 0px 2px;">1</span></a><a rel="noopener noreferrer" class="sup-target" target="_blank" href="https://www.bing.com/ck/a?!&amp;&amp;p=8d7cce33bc0195d6JmltdHM9MTcyMTA4ODAwMCZpZ3VpZD0zZmQwYjVlNS03NDRlLTY5NmQtMWZhMy1hMTdlNzUzZDY4OTUmaW5zaWQ9NTk4OQ&amp;ptn=3&amp;ver=2&amp;hsh=3&amp;fclid=3fd0b5e5-744e-696d-1fa3-a17e753d6895&amp;psq=inland+marine+insurance&amp;u=a1aHR0cHM6Ly93d3cuaXJtaS5jb20vdGVybS9pbnN1cmFuY2UtZGVmaW5pdGlvbnMvaW5sYW5kLW1hcmluZS1jb3ZlcmFnZQ&amp;ntb=1" h="ID=SERP,5989.1" data-tgpsgid="d_anstgpsg2" style="color: #4007a2; background-color: #ffffff;"><span style="color: #123bb6; background: #d1dbfa; height: 14px; margin: 0px 2px;">2</span></a><a rel="noopener noreferrer" class="sup-target" target="_blank" href="https://www.bing.com/ck/a?!&amp;&amp;p=16d3474fdcdf6751JmltdHM9MTcyMTA4ODAwMCZpZ3VpZD0zZmQwYjVlNS03NDRlLTY5NmQtMWZhMy1hMTdlNzUzZDY4OTUmaW5zaWQ9NTk5MA&amp;ptn=3&amp;ver=2&amp;hsh=3&amp;fclid=3fd0b5e5-744e-696d-1fa3-a17e753d6895&amp;psq=inland+marine+insurance&amp;u=a1aHR0cHM6Ly93d3cudGhpbWJsZS5jb20vc21hbGwtYnVzaW5lc3MtaW5zdXJhbmNlL2lubGFuZC1tYXJpbmUtaW5zdXJhbmNl&amp;ntb=1" h="ID=SERP,5990.1" data-tgpsgid="d_anstgpsg3" style="color: #4007a2; background-color: #ffffff;"><span style="color: #123bb6; background: #d1dbfa; height: 14px; margin: 0px 2px;">3</span></a><a rel="noopener noreferrer" class="sup-target" target="_blank" href="https://www.bing.com/ck/a?!&amp;&amp;p=464ba09329969287JmltdHM9MTcyMTA4ODAwMCZpZ3VpZD0zZmQwYjVlNS03NDRlLTY5NmQtMWZhMy1hMTdlNzUzZDY4OTUmaW5zaWQ9NTk5MQ&amp;ptn=3&amp;ver=2&amp;hsh=3&amp;fclid=3fd0b5e5-744e-696d-1fa3-a17e753d6895&amp;psq=inland+marine+insurance&amp;u=a1aHR0cHM6Ly93d3cubmVyZHdhbGxldC5jb20vYXJ0aWNsZS9zbWFsbC1idXNpbmVzcy9pbmxhbmQtbWFyaW5lLWluc3VyYW5jZQ&amp;ntb=1" h="ID=SERP,5991.1" data-tgpsgid="d_anstgpsg4" style="color: #4007a2; background-color: #ffffff;"><span style="color: #123bb6; background: #d1dbfa; height: 14px; margin: 0px 2px;">4</span></a><span style="color: #111111; background-color: #ffffff;">.&nbsp;</span><a rel="noopener noreferrer" class="sh-anchor" data-tg-citations="1" target="_blank" href="https://www.bing.com/ck/a?!&amp;&amp;p=dc4495f478b9fbc8JmltdHM9MTcyMTA4ODAwMCZpZ3VpZD0zZmQwYjVlNS03NDRlLTY5NmQtMWZhMy1hMTdlNzUzZDY4OTUmaW5zaWQ9NTk5Mg&amp;ptn=3&amp;ver=2&amp;hsh=3&amp;fclid=3fd0b5e5-744e-696d-1fa3-a17e753d6895&amp;psq=inland+marine+insurance&amp;u=a1aHR0cHM6Ly90aXZseS5jb20vaW5sYW5kLW1hcmluZS1pbnN1cmFuY2U&amp;ntb=1" h="ID=SERP,5992.1" data-tgpsgid="d_anstgsen1" style="color: #4007a2; background-color: #ffffff;">It is not marine insurance, despite its name</a><a rel="noopener noreferrer" class="sup-target" target="_blank" href="https://www.bing.com/ck/a?!&amp;&amp;p=308ddd3c4c0a6124JmltdHM9MTcyMTA4ODAwMCZpZ3VpZD0zZmQwYjVlNS03NDRlLTY5NmQtMWZhMy1hMTdlNzUzZDY4OTUmaW5zaWQ9NTk5Mw&amp;ptn=3&amp;ver=2&amp;hsh=3&amp;fclid=3fd0b5e5-744e-696d-1fa3-a17e753d6895&amp;psq=inland+marine+insurance&amp;u=a1aHR0cHM6Ly90aXZseS5jb20vaW5sYW5kLW1hcmluZS1pbnN1cmFuY2U&amp;ntb=1" h="ID=SERP,5993.1" data-tgpsgid="d_anstgpsg1" style="color: #4007a2; background-color: #ffffff;"><span style="color: #123bb6; background: #d1dbfa; height: 14px; margin: 0px 2px;">1</span></a><span style="color: #111111; background-color: #ffffff;">.&nbsp;</span><a rel="noopener noreferrer" class="sh-anchor" data-tg-citations="2" target="_blank" href="https://www.bing.com/ck/a?!&amp;&amp;p=e16476368b3d37aeJmltdHM9MTcyMTA4ODAwMCZpZ3VpZD0zZmQwYjVlNS03NDRlLTY5NmQtMWZhMy1hMTdlNzUzZDY4OTUmaW5zaWQ9NTk5NA&amp;ptn=3&amp;ver=2&amp;hsh=3&amp;fclid=3fd0b5e5-744e-696d-1fa3-a17e753d6895&amp;psq=inland+marine+insurance&amp;u=a1aHR0cHM6Ly93d3cuaXJtaS5jb20vdGVybS9pbnN1cmFuY2UtZGVmaW5pdGlvbnMvaW5sYW5kLW1hcmluZS1jb3ZlcmFnZQ&amp;ntb=1" h="ID=SERP,5994.1" data-tgpsgid="d_anstgsen2" style="color: #4007a2; background-color: #ffffff;">Inland marine coverage is property insurance for property in transit over land, other moveable property that may not remain at a fixed location, instrumentalities of transportation, instrumentalities of communication, and legal liability exposures of bailees</a><a rel="noopener noreferrer" class="sup-target" target="_blank" href="https://www.bing.com/ck/a?!&amp;&amp;p=ea8464e72b104a51JmltdHM9MTcyMTA4ODAwMCZpZ3VpZD0zZmQwYjVlNS03NDRlLTY5NmQtMWZhMy1hMTdlNzUzZDY4OTUmaW5zaWQ9NTk5NQ&amp;ptn=3&amp;ver=2&amp;hsh=3&amp;fclid=3fd0b5e5-744e-696d-1fa3-a17e753d6895&amp;psq=inland+marine+insurance&amp;u=a1aHR0cHM6Ly93d3cuaXJtaS5jb20vdGVybS9pbnN1cmFuY2UtZGVmaW5pdGlvbnMvaW5sYW5kLW1hcmluZS1jb3ZlcmFnZQ&amp;ntb=1" h="ID=SERP,5995.1" data-tgpsgid="d_anstgpsg2" style="color: #4007a2; background-color: #ffffff;"><span style="color: #123bb6; background: #d1dbfa; height: 14px; margin: 0px 2px;">2</span></a><span style="color: #111111; background-color: #ffffff;">.&nbsp;</span><a rel="noopener noreferrer" class="sh-anchor" data-tg-citations="3" target="_blank" href="https://www.bing.com/ck/a?!&amp;&amp;p=6039dbaf48a62129JmltdHM9MTcyMTA4ODAwMCZpZ3VpZD0zZmQwYjVlNS03NDRlLTY5NmQtMWZhMy1hMTdlNzUzZDY4OTUmaW5zaWQ9NTk5Ng&amp;ptn=3&amp;ver=2&amp;hsh=3&amp;fclid=3fd0b5e5-744e-696d-1fa3-a17e753d6895&amp;psq=inland+marine+insurance&amp;u=a1aHR0cHM6Ly93d3cudGhpbWJsZS5jb20vc21hbGwtYnVzaW5lc3MtaW5zdXJhbmNlL2lubGFuZC1tYXJpbmUtaW5zdXJhbmNl&amp;ntb=1" h="ID=SERP,5996.1" data-tgpsgid="d_anstgsen3" style="color: #4007a2; background-color: #ffffff;">It is similar to ocean marine insurance, but covers products that go over land, not by sea</a><a rel="noopener noreferrer" class="sup-target" target="_blank" href="https://www.bing.com/ck/a?!&amp;&amp;p=0f16352d5e7e7f8dJmltdHM9MTcyMTA4ODAwMCZpZ3VpZD0zZmQwYjVlNS03NDRlLTY5NmQtMWZhMy1hMTdlNzUzZDY4OTUmaW5zaWQ9NTk5Nw&amp;ptn=3&amp;ver=2&amp;hsh=3&amp;fclid=3fd0b5e5-744e-696d-1fa3-a17e753d6895&amp;psq=inland+marine+insurance&amp;u=a1aHR0cHM6Ly93d3cudGhpbWJsZS5jb20vc21hbGwtYnVzaW5lc3MtaW5zdXJhbmNlL2lubGFuZC1tYXJpbmUtaW5zdXJhbmNl&amp;ntb=1" h="ID=SERP,5997.1" data-tgpsgid="d_anstgpsg3" style="color: #4007a2; background-color: #ffffff;"><span style="color: #123bb6; background: #d1dbfa; height: 14px; margin: 0px 2px;">3</span></a><span style="color: #111111; background-color: #ffffff;">.</span>

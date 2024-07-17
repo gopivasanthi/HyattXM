@@ -1,0 +1,49 @@
+﻿---
+ID: "5d75c9a5-e967-4e43-85a9-e09b48c0ce95"
+Parent: "05d73879-8381-463d-b244-9bb82a241613"
+Template: "9cda0e3b-7f23-4de1-8501-38e460e613e4"
+Path: "/sitecore/content/HyattXM/HyattXM/Home/Product/directors-and-officers-insurance"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{213AB9F7-8DD5-476B-84D8-419D090A63D0}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T025253Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "directors-and-officers-insurance"
+    - ID: "5d0db913-9528-428a-908f-534e69ad1448"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{DDBC9E90-EC51-404B-BC6A-96FA7FC93D96}" />
+    - ID: "631ef074-b21c-433f-ae89-a130b4d1f522"
+      Hint: Title
+      Value: Directors and officers insurance
+    - ID: "6fc11e5f-4aa3-4c4a-8870-b247985e28c9"
+      Hint: InsuranceScope
+      Value: "{BE467D3B-2EA0-4C0A-ADEB-A0C8DBB5E92F}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b4124b4f-da27-4d8c-9378-67f041653354"
+    - ID: "b567815e-96eb-49f8-9ddb-1592fa4a4632"
+      Hint: InsuranceType
+      Value: "{E8282D8D-B8B4-4645-9F75-4C67817B3E75}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T054740Z
+    - ID: "ebc6b8b5-9ec1-496b-b29d-605b8d34c738"
+      Hint: Content
+      Value: |
+        <h2 id="mntl-sc-block_1-0" class="comp mntl-sc-block finance-sc-block-heading mntl-sc-block-heading" style="color: #111111; background-color: #ffffff; margin: 0px 0px 0.5rem; letter-spacing: 0.05px; line-height: 1.2;"><span class="mntl-sc-block-heading__text">What Is Directors and Officers (D&amp;O) Liability Insurance?</span></h2>
+        <p id="mntl-sc-block_2-0" class="comp mntl-sc-block finance-sc-block-html mntl-sc-block-html" style="color: #111111; background-color: #ffffff; margin-top: 0px; margin-bottom: 1.75rem; letter-spacing: 0.05px;">Directors and officers (D&amp;O) liability&nbsp;<a href="https://www.investopedia.com/terms/l/liability_insurance.asp" data-component="link" data-source="inlineLink" data-type="internalLink" data-ordinal="1" style="color: #2c40d0;">insurance</a>&nbsp;is insurance coverage intended to protect individuals from personal losses if they are sued as a result of serving as a director or an officer of a business or other type of organization. It can also cover the legal fees and other costs the organization may incur as a result of such a suit.</p>

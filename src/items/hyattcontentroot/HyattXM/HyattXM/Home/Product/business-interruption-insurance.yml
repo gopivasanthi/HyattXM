@@ -1,0 +1,64 @@
+﻿---
+ID: "6cb3ac41-e5b8-40ae-bd56-ce963848be4f"
+Parent: "05d73879-8381-463d-b244-9bb82a241613"
+Template: "9cda0e3b-7f23-4de1-8501-38e460e613e4"
+Path: "/sitecore/content/HyattXM/HyattXM/Home/Product/business-interruption-insurance"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{DF61BE5E-872F-4628-8541-F7B3DD35D362}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T025139Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "business-interruption-insurance"
+    - ID: "5d0db913-9528-428a-908f-534e69ad1448"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F0783F02-24DD-4282-B12F-7A67E606BE59}" />
+    - ID: "631ef074-b21c-433f-ae89-a130b4d1f522"
+      Hint: Title
+      Value: Business interruption insurance
+    - ID: "6fc11e5f-4aa3-4c4a-8870-b247985e28c9"
+      Hint: InsuranceScope
+      Value: "{91C6DEE7-CA08-4FDC-84A9-82895933F19C}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1ba9f8f3-fe8c-4fea-8834-b66c71b0a547"
+    - ID: "b567815e-96eb-49f8-9ddb-1592fa4a4632"
+      Hint: InsuranceType
+      Value: "{B393E388-8368-441E-AA72-CB9C0A975777}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T054628Z
+    - ID: "ebc6b8b5-9ec1-496b-b29d-605b8d34c738"
+      Hint: Content
+      Value: |
+        <h2 id="mntl-sc-block_1-0" class="comp mntl-sc-block finance-sc-block-heading mntl-sc-block-heading" style="color: #111111; background-color: #ffffff; margin: 0px 0px 0.5rem; letter-spacing: 0.05px; line-height: 1.2;"><span class="mntl-sc-block-heading__text">What Is Business Interruption Insurance?</span></h2>
+        <p id="mntl-sc-block_2-0" class="comp mntl-sc-block finance-sc-block-html mntl-sc-block-html" style="color: #111111; background-color: #ffffff; margin-top: 0px; margin-bottom: 1.75rem; letter-spacing: 0.05px;">Business interruption insurance is insurance coverage that replaces business income lost in a disaster. The event could be, for example, a fire or a natural disaster. Business interruption insurance is not sold as a separate policy but is either added to a property/casualty policy or included in a&nbsp;<a href="https://www.investopedia.com/terms/c/comprehensive-insurance.asp" data-component="link" data-source="inlineLink" data-type="internalLink" data-ordinal="1" style="color: #2c40d0;">comprehensive package policy</a>&nbsp;as an add-on or rider.</p>
+        <div id="mntl-sc-block_3-0" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block" style="color: #111111; background-color: #ffffff; letter-spacing: 0.05px;">&nbsp;</div>
+        <div id="mntl-sc-block_4-0" class="comp mntl-sc-block finance-sc-block-callout mntl-block" style="color: #111111; background-color: #ffffff; letter-spacing: 0.05px;">
+        <div id="mntl-sc-block_5-0" class="comp mntl-sc-block mntl-sc-block-callout mntl-block theme-whatyouneedtoknow" data-tracking-id="mntl-sc-block-callout" data-tracking-container="true" style="margin: 1rem 0px 2rem;">
+        <h3 id="mntl-sc-block-callout-heading_1-0" class="comp mntl-sc-block-callout-heading mntl-text-block" style="margin: 0px; padding: 1.5625rem 1.25rem 0.5625rem; letter-spacing: 0.05rem; line-height: 1.2;">KEY TAKEAWAYS</h3>
+        <div id="mntl-sc-block-callout-body_1-0" class="comp mntl-sc-block-callout-body mntl-text-block" style="padding: 0px 1.25rem 1.25rem;">
+        <ul style="margin-top: 0px; margin-bottom: 0px; padding-left: 1.5rem; list-style-image: initial;">
+            <li style="padding-bottom: 0.375rem;">Business interruption insurance is insurance coverage that replaces income lost in the event that business is halted due to direct physical loss or damage, such as might be caused by a fire or a&nbsp;<a href="https://www.investopedia.com/does-business-interruption-insurance-cover-covid-19-5101726" data-component="link" data-source="inlineLink" data-type="internalLink" data-ordinal="1" style="color: #2c40d0; margin-bottom: 0px;">natural disaster</a>.</li>
+            <li style="padding-bottom: 0.375rem;">Business interruption coverage includes business income coverage, extra expense coverage, contingent business interruption coverage, or civil authority coverage.</li>
+            <li style="padding-bottom: 0.375rem;">This type of insurance also covers operating expenses, a move to a temporary location if necessary, payroll, taxes, and loan payments.</li>
+            <li style="padding-bottom: 0.375rem;">In rare cases, business interruption insurance can apply if a civil authority shuts down a business due to physical damage to a nearby business, resulting in a loss for a firm.</li>
+            <li style="margin-bottom: 0px; padding-bottom: 0.375rem;">Standard business interruption insurance does not reimburse policy holders if the business is closed due to a pandemic. Even some all-risk insurance plans have specific exclusions for losses due to viruses or bacteria.</li>
+        </ul>
+        </div>
+        </div>
+        </div>

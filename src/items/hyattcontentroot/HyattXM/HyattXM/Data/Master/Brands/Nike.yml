@@ -11,9 +11,15 @@ Languages:
     - ID: "0960d932-3d21-49c5-8c20-dd7411699666"
       Hint: ProductCardTitle
       Value: Convention of Parms
+    - ID: "2032d15e-9c94-41e7-9fc8-331a4ece9fd0"
+      Hint: BasicFeatures
+      Value: "{0D3B4C79-8816-411E-BB2E-5B12C1C8DB85}"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240620T051617Z
+    - ID: "6880fff9-0fbb-473b-8513-c3b7de7058c2"
+      Hint: PrimaryColor
+      Value: "{B2B2E4C2-12E9-43A9-8192-F90109FDE3A8}"
     - ID: "8082a366-ca30-4b13-83ca-af02fcfdf8ce"
       Hint: CardHighlights
       Value: |
@@ -22,7 +28,7 @@ Languages:
         {73CF07B9-8EB1-40E7-8285-E97671D41D1B}
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "24393239-f008-4a7b-89d2-ad2c69032bf4"
+      Value: "f52c3684-e649-4623-a269-409c8f82f79a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -31,6 +37,12 @@ Languages:
       Hint: ProductCardBackgroundImage
       Value: |
         <image mediaid="{6631DFAF-6138-4548-ABD8-30916B2203E7}" />
+    - ID: "d44dbf49-95fd-463f-89ef-0ef5631fa513"
+      Hint: Offers
+      Value: "{B14833DC-07B3-4A3E-9DF4-D25BEBFCCE5D}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240712T023814Z
+      Value: 20240716T154149Z
+    - ID: "dca31f19-75e6-464c-9188-ec749dd338bc"
+      Hint: BasicSpecifications
+      Value: "{501A1531-4FD3-4DF6-8315-3DBAD14EBA32}"

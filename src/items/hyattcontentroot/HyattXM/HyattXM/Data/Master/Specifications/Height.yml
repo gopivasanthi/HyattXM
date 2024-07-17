@@ -8,12 +8,16 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "14fa2a47-6a2a-4536-832f-9ae4e3b2ccfa"
+      Hint: SpecificationImage
+      Value: |
+        <image mediaid="{DD178DFD-5163-4CD4-9A37-B093EBF7C608}" alt="test" height="" width="" hspace="" vspace="" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240620T051828Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e4ba69fd-20bf-4133-959e-223f5188d5da"
+      Value: "f54bf8d6-f4a7-420b-bc06-3c6f0393a185"
     - ID: "aff25ac9-c18d-4936-a1ef-fd23084ff8bd"
       Hint: SpecificationName
       Value: Height
@@ -21,6 +25,9 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
+    - ID: "ce57c12e-9f49-44cd-a509-a0abd9a0dedd"
+      Hint: SpecificationValue
+      Value: 10 px
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240620T051828Z
+      Value: 20240716T033402Z

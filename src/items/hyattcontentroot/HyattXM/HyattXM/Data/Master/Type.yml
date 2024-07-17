@@ -1,0 +1,23 @@
+﻿---
+ID: "f5c756b7-02a9-442c-9ad2-9a26ab40fdd4"
+Parent: "1a670463-400e-46f0-9335-63883a24bfb4"
+Template: "d5768c36-3172-439d-b4cb-72a7930831f5"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Master/Type
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T030734Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e9384060-cfb5-4719-87a0-8699fb6198a7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T030744Z

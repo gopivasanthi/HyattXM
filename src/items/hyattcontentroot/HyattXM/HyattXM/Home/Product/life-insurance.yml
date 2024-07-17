@@ -1,0 +1,66 @@
+﻿---
+ID: "f7a71cfc-3e0c-45dc-ad44-9090b3b2718a"
+Parent: "05d73879-8381-463d-b244-9bb82a241613"
+Template: "9cda0e3b-7f23-4de1-8501-38e460e613e4"
+Path: "/sitecore/content/HyattXM/HyattXM/Home/Product/life-insurance"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{27D2E5F4-AFA3-4693-9EEF-34B2B4A1DBA7}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T031601Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "life-insurance"
+    - ID: "5d0db913-9528-428a-908f-534e69ad1448"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{E6F0EA0A-0496-4B0A-9ECC-1F148EE31995}" />
+    - ID: "631ef074-b21c-433f-ae89-a130b4d1f522"
+      Hint: Title
+      Value: Life insurance
+    - ID: "6fc11e5f-4aa3-4c4a-8870-b247985e28c9"
+      Hint: InsuranceScope
+      Value: "{BE467D3B-2EA0-4C0A-ADEB-A0C8DBB5E92F}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "20523137-7822-4985-8056-cea2ba44acae"
+    - ID: "b567815e-96eb-49f8-9ddb-1592fa4a4632"
+      Hint: InsuranceType
+      Value: "{E8282D8D-B8B4-4645-9F75-4C67817B3E75}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T055041Z
+    - ID: "ebc6b8b5-9ec1-496b-b29d-605b8d34c738"
+      Hint: Content
+      Value: |
+        <p style="color: #111111; background-color: #ffffff; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);">Certainly!&nbsp;<span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Term life insurance</span>&nbsp;is a straightforward type of life insurance policy that provides coverage for a specified period, typically 10, 20, or 30 years. Here&rsquo;s how it works:</p>
+        <ol style="color: #111111; background-color: #ffffff; margin: 12px 0px 0px;">
+            <li>
+            <p style="margin-right: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Coverage Duration</span>: You choose the term (duration) of the policy. If you pass away during this period while the policy is active, your beneficiaries receive a&nbsp;<span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">death benefit</span>.</p>
+            </li>
+            <li>
+            <p style="margin-right: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Premiums</span>: You pay regular premiums during the term. These premiums are generally lower than those for whole life insurance.</p>
+            </li>
+            <li>
+            <p style="margin-right: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">No Cash Value</span>: Unlike whole life insurance, term policies don&rsquo;t accumulate cash value over time. They purely provide protection.</p>
+            </li>
+            <li>
+            <p style="margin-right: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Beneficiaries</span>: You name beneficiaries who receive the payout if you die during the term.</p>
+            </li>
+            <li>
+            <p style="margin-right: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Affordability</span>: Term life insurance is affordable and ideal for those who want financial security for a specific period.</p>
+            </li>
+        </ol>
+        <p style="color: #111111; background-color: #ffffff; margin-top: 12px; margin-right: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);">Remember, the death benefit from term life insurance is typically&nbsp;<span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">tax-free</span>&nbsp;for your beneficiaries.&nbsp;<a rel="noopener noreferrer" href="https://www.bing.com/aclick?ld=e8FEbVh97KKZuhNKARjpCVZjVUCUwXYKWKvhJlL8sylj1BC5xA_RAbu8AOhTXy91RWzcwEO5xpf0tKZgbeLQ5rQbwhnxPK680OPzaegMDPHN_o7vNNBX6Ut0bzZAZ0I5lH03uQ6iwIw6fi_kZHH0r9uYaZ5s1xTXLvhTcfSmafFgGgzyo-&amp;u=aHR0cHMlM2ElMmYlMmZ3d3cubWF4bGlmZWluc3VyYW5jZS5jb20lMmZ0ZXJtLWluc3VyYW5jZS1wbGFucyUyZnByZW1pdW0tY2FsY3VsYXRvciUzZnV0bV9zJTNkYmluZyUyNnV0bUNvZGUlM2QxMzExMjYyJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkY29yZV9iaW5nJTI2d3d3Lm1heGxpZmVpbnN1cmFuY2UuY29tJTJmdGVybS1pbnN1cmFuY2UtcGxhbnMlMmZwcmVtaXVtLWNhbGN1bGF0b3IlM2Z1dG1fcyUzZGJpbmclMjZ1dG1Db2RlJTNkMTMxMTI2MiUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZENvcmVfRXhhY3RfQmluZyUyNm1zY2xraWQlM2Q1YzZhMGQ4YWFkZWUxYjJjZDZjYTZiMWQ5NDdlNDBhNg&amp;rlid=5c6a0d8aadee1b2cd6ca6b1d947e40a6" class="tooltip-target hover" data-citationid="7e02807a-fda3-a384-ab6b-5c496c88ae25-26-group" h="ID=SERP.5027_2,7912.1,Ads" target="_blank" style="color: inherit; border-bottom: 2px solid transparent;">If you&rsquo;re considering life insurance, compare rates from different insurers to find the best fit</a></p>

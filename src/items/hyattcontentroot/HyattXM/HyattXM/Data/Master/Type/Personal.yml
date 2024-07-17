@@ -1,0 +1,26 @@
+﻿---
+ID: "e8282d8d-b8b4-4645-9f75-4c67817b3e75"
+Parent: "f5c756b7-02a9-442c-9ad2-9a26ab40fdd4"
+Template: "9e3271f8-7ba8-43d8-8aa8-a250a6af7b28"
+Path: /sitecore/content/HyattXM/HyattXM/Data/Master/Type/Personal
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T030800Z
+    - ID: "515a99d3-6432-474f-9f7d-d09cc65a1262"
+      Hint: InsuranceTypeName
+      Value: Personal
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8f6eafdd-1ddc-41fa-9907-9e51f599fe97"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T030800Z

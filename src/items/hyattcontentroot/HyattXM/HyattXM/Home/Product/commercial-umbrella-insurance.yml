@@ -1,0 +1,60 @@
+﻿---
+ID: "75efa1ab-ca68-48dd-8a88-161dd103d393"
+Parent: "05d73879-8381-463d-b244-9bb82a241613"
+Template: "9cda0e3b-7f23-4de1-8501-38e460e613e4"
+Path: "/sitecore/content/HyattXM/HyattXM/Home/Product/commercial-umbrella-insurance"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{2BE778F9-819A-4DCC-BBE4-84642FA4582E}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T025218Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "commercial-umbrella-insurance"
+    - ID: "5d0db913-9528-428a-908f-534e69ad1448"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{A0353FCD-1CA4-4155-BBCD-BD82DFB9D5FA}" />
+    - ID: "631ef074-b21c-433f-ae89-a130b4d1f522"
+      Hint: Title
+      Value: Commercial umbrella insurance
+    - ID: "6fc11e5f-4aa3-4c4a-8870-b247985e28c9"
+      Hint: InsuranceScope
+      Value: "{91C6DEE7-CA08-4FDC-84A9-82895933F19C}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4dae35c5-8acb-418f-9501-1d66e1a04279"
+    - ID: "b567815e-96eb-49f8-9ddb-1592fa4a4632"
+      Hint: InsuranceType
+      Value: "{B393E388-8368-441E-AA72-CB9C0A975777}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T054715Z
+    - ID: "ebc6b8b5-9ec1-496b-b29d-605b8d34c738"
+      Hint: Content
+      Value: |
+        <h1 class="farticle-title" style="color: #333333; background-color: #ffffff; margin: 0px 0px 30px; padding: 0px; line-height: 53px;">Commercial Umbrella Insurance: What It Is &amp; How to Get It</h1>
+        <p class="farticle-title" style="color: #333333; background-color: #ffffff; margin: 0px 0px 30px; padding: 0px; line-height: 53px;">
+        <p style="color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; line-height: 28px;">A good small business insurance policy not only accounts for the unexpected but also gives you some extra cushion in case the liability insurance in your base policy is insufficient. Commercial umbrella insurance gives you that extra cushion.</p>
+        <p style="color: #333333; background-color: #ffffff; margin: 0px 0px 20px; padding: 0px; line-height: 28px;">For instance, your business will need to pay the additional amount if your employee is making deliveries and causes a car crash that results in multiple injuries and the medical expenses exceed your commercial car insurance liability limits. But if you have commercial umbrella insurance, the policy will cover the excess amount.</p>
+        <p style="color: #333333; background-color: #ffffff; margin: 0px 0px 20px; padding: 0px; line-height: 28px;">The&nbsp;<a href="https://www.forbes.com/advisor/business-insurance/best-small-business-insurance/" rel="noopener" style="color: #395bb6; margin: 0px; padding: 0px; line-height: 28px;">best small business insurance</a>&nbsp;policies can be tailored to meet your company&rsquo;s specific needs and commercial liability insurance is a valuable coverage worth considering.</p>
+        <div data-mktp-container="{'componentTitle':'Next Insurance','componentType':'Generic Product'}" style="color: #333333; background-color: #ffffff; margin: 0px; padding: 0px;"><section class="generic-widget-wrapper" id="genericProductWidget2021" data-generic-widget="root" data-mktp-container="{'componentTitle':'Next Insurance','componentType':'Generic Product'}" style="margin: 0px 0px 20px; padding: 0px;">
+        <div class="exclude-eds cc-wrapper featured-widget no-rating " data-mktp-product="{'itemId':'207059','itemName':'Next Insurance','itemBrand':'Impact','itemCategory':'Business Insurance','itemCategory2':'','itemCategory3':'','itemCategory4':'','price':0,'quantity':1,'affiliation':'Impact','coupon':'','secondaryCallout':'','starRatings':0,'initialCost':0,'subscriptionCost':0}" style="margin: 0px; padding: 0px;">
+        <div class="featured-widget-label" style="color: #ffffff; background: linear-gradient(91.79deg, #4657a1 35.3%, #3b4a8a 58.92%); height: 60px; margin: 0px; padding: 0px;"><span class="featured-widget-label-txt" style="margin: -14px 0px 0px; padding: 0px; letter-spacing: 2px; line-height: 14px;">FEATURED PAR</span></div>
+        </div>
+        </section></div>
+        </p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>

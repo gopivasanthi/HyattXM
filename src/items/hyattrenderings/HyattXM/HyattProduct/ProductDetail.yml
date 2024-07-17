@@ -6,7 +6,7 @@ Path: /sitecore/layout/Renderings/Project/HyattXM/HyattProduct/ProductDetail
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: TestProductDetail
+  Value: ProductDetail
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: SXA_MDI/16x16/Promo.png
@@ -19,6 +19,7 @@ SharedFields:
           brand{
             ProductBrandCards:targetItems{
     					... on ProductBrandCard{
+    productCardName:name
                 productCardTitle{
                   value
                 }
@@ -114,14 +115,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e1cb2ed3-05ad-4119-b75d-9a352cced6ae"
+      Value: "fe99b86f-d803-492e-a647-c647309b7bef"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240712T212205Z
+      Value: 20240717T033907Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

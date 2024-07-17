@@ -1,0 +1,58 @@
+﻿---
+ID: "9239907b-b4c9-4abd-9a9c-13eac534d1fa"
+Parent: "05d73879-8381-463d-b244-9bb82a241613"
+Template: "9cda0e3b-7f23-4de1-8501-38e460e613e4"
+Path: "/sitecore/content/HyattXM/HyattXM/Home/Product/surety-bonds"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{5BB22B55-F756-4EFC-8747-064FE538B985}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T025521Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "surety-bonds"
+    - ID: "5d0db913-9528-428a-908f-534e69ad1448"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{3649A27C-000D-4BA0-A2F8-02E663CE6929}" />
+    - ID: "631ef074-b21c-433f-ae89-a130b4d1f522"
+      Hint: Title
+      Value: Surety bonds
+    - ID: "6fc11e5f-4aa3-4c4a-8870-b247985e28c9"
+      Hint: InsuranceScope
+      Value: "{91C6DEE7-CA08-4FDC-84A9-82895933F19C}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8c4fc4ea-5609-4f66-9758-b53ad80e3f2a"
+    - ID: "b567815e-96eb-49f8-9ddb-1592fa4a4632"
+      Hint: InsuranceType
+      Value: "{E8282D8D-B8B4-4645-9F75-4C67817B3E75}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T055216Z
+    - ID: "ebc6b8b5-9ec1-496b-b29d-605b8d34c738"
+      Hint: Content
+      Value: |
+        <p style="color: #111111; background-color: #ffffff; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);">A&nbsp;<span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">surety bond</span>&nbsp;is a legally binding contract that involves three parties:</p>
+        <ol style="color: #111111; background-color: #ffffff; margin: 12px 0px 0px;">
+            <li><strong>Principal</strong>: The party purchasing the bond and undertaking an obligation to perform a promised act.</li>
+            <li><strong>Surety</strong>: The insurance company guaranteeing that the principal will fulfill their obligation. If the principal fails, the surety is liable for losses.</li>
+            <li><strong>Obligee</strong>: The party requiring the bond (often a government organization) and benefiting from it.</li>
+        </ol>
+        <p style="color: #111111; background-color: #ffffff; margin: 12px 0px 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);">Types of surety bonds include:</p>
+        <ul style="color: #111111; background-color: #ffffff; margin: 12px 0px 0px;">
+            <li><strong>License and Permit Bonds</strong>: Ensure compliance with licensing or permit requirements.</li>
+            <li><strong>Contract Bonds</strong>: Guarantee contractors complete construction projects as specified and make payments to subcontractors and suppliers.</li>
+        </ul>

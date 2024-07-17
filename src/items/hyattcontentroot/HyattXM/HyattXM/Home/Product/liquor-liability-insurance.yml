@@ -1,0 +1,88 @@
+﻿---
+ID: "0dd47dd5-afdb-4057-85d2-9bd5c1e587c9"
+Parent: "05d73879-8381-463d-b244-9bb82a241613"
+Template: "9cda0e3b-7f23-4de1-8501-38e460e613e4"
+Path: "/sitecore/content/HyattXM/HyattXM/Home/Product/liquor-liability-insurance"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{BC48ED18-7C2B-49F7-9041-8FC41826132F}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T025453Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "liquor-liability-insurance"
+    - ID: "5d0db913-9528-428a-908f-534e69ad1448"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8FCF724C-4B45-4F40-B572-9C7904880678}" />
+    - ID: "631ef074-b21c-433f-ae89-a130b4d1f522"
+      Hint: Title
+      Value: Liquor liability insurance
+    - ID: "6fc11e5f-4aa3-4c4a-8870-b247985e28c9"
+      Hint: InsuranceScope
+      Value: "{BE467D3B-2EA0-4C0A-ADEB-A0C8DBB5E92F}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1321e9d8-53ab-44eb-aaad-91a8e6a28f4d"
+    - ID: "b567815e-96eb-49f8-9ddb-1592fa4a4632"
+      Hint: InsuranceType
+      Value: "{B393E388-8368-441E-AA72-CB9C0A975777}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\gopi@altudo.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T055117Z
+    - ID: "ebc6b8b5-9ec1-496b-b29d-605b8d34c738"
+      Hint: Content
+      Value: |
+        <p style="color: #111111; background-color: #ffffff; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Liquor liability insurance</span>&nbsp;protects businesses that serve, sell, or distribute alcohol. Here&rsquo;s what you need to know:</p>
+        <ol style="color: #111111; background-color: #ffffff; margin: 12px 0px 0px;">
+            <li>
+            <p style="margin-right: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Coverage</span>: It helps cover claims related to bodily injury or property damage caused by intoxicated customers after your business served them alcohol. This coverage can be a standalone policy or an endorsement to general liability insurance.</p>
+            </li>
+            <li>
+            <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">What It Covers</span>:</p>
+            <ul style="margin: 12px 0px 0px;">
+                <li><strong>Assault and Battery</strong>: If a customer physically harms someone after being served alcohol.</li>
+                <li><strong>Drunk Driving</strong>: If an intoxicated person damages property or causes an accident.</li>
+                <li><strong>Property Damage</strong>: Covers damage to another person&rsquo;s belongings caused by an intoxicated customer.</li>
+            </ul>
+            </li>
+            <li>
+            <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Cost Factors</span>:</p>
+            <ul style="margin: 12px 0px 0px;">
+                <li><strong>Sales Percentage</strong>: The more alcohol you sell, the higher the cost.</li>
+                <li><strong>Industry</strong>: Certain industries face more risk.</li>
+                <li><strong>Location</strong>: State laws impact insurance costs.</li>
+                <li><strong>Coverage Limits</strong>: Higher limits mean higher premiums.</li>
+                <li><strong>Liquor Sales</strong>: Annual sales affect rates.</li>
+            </ul>
+            </li>
+            <li>
+            <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Ways to Save</span>:</p>
+            <ul style="margin: 12px 0px 0px;">
+                <li><strong>Bundle</strong>: Combine with other insurance types.</li>
+                <li><strong>Pay Upfront</strong>: Pay premiums in full.</li>
+                <li><strong>Risk Management</strong>: Train employees and serve water with alcoholic beverages.</li>
+            </ul>
+            </li>
+            <li>
+            <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);"><span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">Who Needs It?</span>:</p>
+            <ul style="margin: 12px 0px 0px;">
+                <li><strong>Restaurants</strong></li>
+                <li><strong>Caterers</strong></li>
+                <li><strong>Liquor Stores</strong></li>
+                <li><strong>Grocery Stores</strong></li>
+            </ul>
+            </li>
+        </ol>
