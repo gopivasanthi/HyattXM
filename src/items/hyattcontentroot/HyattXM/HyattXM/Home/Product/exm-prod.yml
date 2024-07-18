@@ -1,7 +1,7 @@
 ﻿---
 ID: "b167072a-2857-4108-ad27-f9194b37dcb9"
 Parent: "05d73879-8381-463d-b244-9bb82a241613"
-Template: "9cda0e3b-7f23-4de1-8501-38e460e613e4"
+Template: "e7f13518-4b9a-4a19-b884-b8441d7064a2"
 Path: "/sitecore/content/HyattXM/HyattXM/Home/Product/exm-prod"
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
@@ -43,11 +43,11 @@ Languages:
       Value: Main Product Detail
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "81e72349-f3f5-4ed6-8fd6-55f7dc6f4301"
+      Value: "b1bb483c-4f7c-4d42-9972-63553038d66b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240712T045137Z
+      Value: 20240717T172803Z

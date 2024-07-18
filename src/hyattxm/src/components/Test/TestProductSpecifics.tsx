@@ -2,15 +2,6 @@ import React from 'react';
 import { gql, useQuery } from '@apollo/client';
 import customgraphqlclient from 'src/lib/graphql-custom/customgraphqlclient';
 import TestProductSpecList from 'src/molecules/Product/TestProductSpecList';
-import { ProductCardSpecificsFields } from 'src/types/Product/ProductCard/ProductCardSpecificsFields';
-
-interface ProductSpecificsFields {
-  data: {
-    data: {
-      results: ProductCardSpecificsFields;
-    };
-  };
-}
 
 const PRODUCT_SPECIFICS_QUERY = gql`
   query GetProductSpecifics($brandName: String!) {
