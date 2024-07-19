@@ -25,13 +25,13 @@ Languages:
         <image mediaid="{B57964C6-9705-4934-B024-B837623D9998}" />
     - ID: "631ef074-b21c-433f-ae89-a130b4d1f522"
       Hint: Title
-      Value: Employment practices liability insurance
+      Value: Employment practices insurance
     - ID: "6fc11e5f-4aa3-4c4a-8870-b247985e28c9"
       Hint: InsuranceScope
       Value: "{BE467D3B-2EA0-4C0A-ADEB-A0C8DBB5E92F}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e06fe113-e533-4e57-a253-a00a52d24d17"
+      Value: "e3f61892-4bbc-4583-ac58-24d6b8e75928"
     - ID: "b567815e-96eb-49f8-9ddb-1592fa4a4632"
       Hint: InsuranceType
       Value: "{B393E388-8368-441E-AA72-CB9C0A975777}"
@@ -41,7 +41,7 @@ Languages:
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240717T054853Z
+      Value: 20240718T170802Z
     - ID: "ebc6b8b5-9ec1-496b-b29d-605b8d34c738"
       Hint: Content
       Value: |

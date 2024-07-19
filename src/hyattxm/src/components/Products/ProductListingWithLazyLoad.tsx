@@ -1,6 +1,6 @@
 import { gql, useQuery } from '@apollo/client';
 import customgraphqlclient from 'lib/graphql-custom/customgraphqlclient';
-import React, { useState } from 'react';
+import React from 'react';
 import ProductList from 'src/molecules/Product/Listing/ProductList';
 
 const PRODUCT_LISTING_QUERY = gql`
@@ -62,14 +62,13 @@ export const Default = (): JSX.Element => {
   const { loading, error, data, fetchMore } = useQuery(PRODUCT_LISTING_QUERY, {
     client: customgraphqlclient,
   });
-  const [pageHistory, setPageHistory] = useState<string[]>([]);
+
   if (loading) return <p>Loading data....</p>;
   if (error) return <p>Error: {error.message}</p>;
   if (!data) return <p>Not data found!</p>;
-
   const { pageInfo, results } = data.search;
 
-  const handleNextPage = () => {
+  const handleLazyLoad = () => {
     if (pageInfo.hasNext) {
       fetchMore({
         variables: {
@@ -77,29 +76,11 @@ export const Default = (): JSX.Element => {
         },
         updateQuery: (previousResult, { fetchMoreResult }) => {
           if (!fetchMoreResult) return previousResult;
-          setPageHistory([...pageHistory, pageInfo.endCursor]);
           return {
-            search: fetchMoreResult.search,
-          };
-        },
-      });
-    } else {
-      alert('NextItem Not Available');
-    }
-  };
-
-  const handlePreviousPage = () => {
-    if (pageHistory.length > 0) {
-      const previousCursor = pageHistory[pageHistory.length - 2];
-      fetchMore({
-        variables: {
-          endCursor: previousCursor,
-        },
-        updateQuery: (previousResult, { fetchMoreResult }) => {
-          if (!fetchMoreResult) return previousResult;
-          setPageHistory(pageHistory.slice(0, -1));
-          return {
-            search: fetchMoreResult.search,
+            search: {
+              ...fetchMoreResult.search,
+              results: [...previousResult.search.results, ...fetchMoreResult.search.results],
+            },
           };
         },
       });
@@ -130,11 +111,8 @@ export const Default = (): JSX.Element => {
           <div className="container">
             <ProductList results={results} />
             <div className="pagination-controls">
-              <button onClick={handlePreviousPage} disabled={pageHistory.length < 1}>
-                Previous
-              </button>
-              <button onClick={handleNextPage} disabled={!pageInfo.hasNext}>
-                Next
+              <button onClick={handleLazyLoad} disabled={!pageInfo.hasNext}>
+                Load More
               </button>
             </div>
           </div>

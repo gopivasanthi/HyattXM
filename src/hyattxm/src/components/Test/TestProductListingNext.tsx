@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { gql, useQuery } from '@apollo/client';
 import customgraphqlclient from 'lib/graphql-custom/customgraphqlclient';
 import ProductList from 'src/molecules/Product/Listing/ProductList';
+import TestSearchFilters from 'src/molecules/Product/TestSearchFilters';
+import { TestSearchFiltersProps } from 'src/types/Product/TestSearchFiltersProps';
 
 const PRODUCT_LISTING_QUERY = gql`
    query GetProductListing($endCursor: String) {
@@ -103,6 +105,10 @@ export const Default = (): JSX.Element => {
   if (!data) return <p>Not data found!</p>;
   const { pageInfo, results } = data.search;
 
+  const FiltersData : TestSearchFiltersProps = {
+    searchProductScope : data.searchProductScope,
+    searchProductType : data.searchProductType 
+  }
   const handleNextPage = () => {
     if (pageInfo.hasNext) {
       fetchMore({
@@ -143,19 +149,7 @@ export const Default = (): JSX.Element => {
       <div className="row">
         <div className="col-md-3">
           {/* Left Sidebar - Filters */}
-          <div className="filters">
-            <h5>Filters</h5>
-            {/* Add your filter components here */}
-            <div className="filter-group">
-              <label htmlFor="filter1">Filter 1</label>
-              <input type="checkbox" id="filter1" name="filter1" />
-            </div>
-            <div className="filter-group">
-              <label htmlFor="filter2">Filter 2</label>
-              <input type="checkbox" id="filter2" name="filter2" />
-            </div>
-            {/* Add more filters as needed */}
-          </div>
+          <TestSearchFilters {...FiltersData} />
         </div>
         <div className="col-md-9">
           {/* Right Sidebar - Cards */}

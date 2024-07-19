@@ -1,19 +1,34 @@
 import React from 'react';
-import { ComponentParams, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
+import TestFilterItem from 'src/atoms/Product/TestAtoms/TestFilterItem';
+import { TestSearchFiltersProps } from 'src/types/Product/TestSearchFiltersProps';
 
-interface TestSearchFiltersProps {
-  rendering: ComponentRendering & { params: ComponentParams };
-  params: ComponentParams;
-}
 
 export const TestSearchFilters = (props: TestSearchFiltersProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-
   return (
-    <div className={`component ${props.params.styles}`} id={id ? id : undefined}>
-      <div className="component-content">
-        <p>TestSearchFilters Component</p>
+    <div className="filters">
+      <h5>Filters</h5>
+      {/* Add your filter components here */}
+      <div className="filter-group">
+        <h6>Insurance Scope</h6>
+        {props.searchProductScope.results &&
+          props.searchProductScope.results.map((scopeitem, scopeindex) => (
+            <TestFilterItem
+              key={`scopeitem-${scopeindex}`}
+              filterIdentifier={scopeitem.scopeName.value}
+            />
+          ))}
       </div>
+      <div className="filter-group">
+        <h6>Insurance Type</h6>
+        {props.searchProductScope.results &&
+          props.searchProductType.results.map((typeitem, typeindex) => (
+            <TestFilterItem
+              key={`typeitem-${typeindex}`}
+              filterIdentifier={typeitem.insuranceTypeName.value}
+            />
+          ))}
+      </div>
+      {/* Add more filters as needed */}
     </div>
   );
 };
