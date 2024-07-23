@@ -1,15 +1,22 @@
 export interface TestProductListItemFields {
-  title: {
+  productDetailPageUrl: {
+    path: string;
+  };
+  productPageTitle: {
     value: string;
   };
-  insuranceType: {
+  productType: {
     targetItem: {
-      name: string;
+      productTypeName: {
+        value: string;
+      };
     };
   };
-  insuranceScope: {
+  productScope: {
     targetItem: {
-      name: string;
+      productScopeName: {
+        value: string;
+      };
     };
   };
   productImage: {

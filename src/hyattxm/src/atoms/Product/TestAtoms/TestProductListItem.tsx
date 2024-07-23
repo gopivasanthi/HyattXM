@@ -13,14 +13,14 @@ export const TestProductListItem = (props: TestProductListItemFields): JSX.Eleme
           alt={props.productImage.alt}
         />
         <div className="card-body">
-          <p className="card-text">{props.title.value}</p>
+          <p className="card-text">{props.productPageTitle.value}</p>
           <div className="d-flex justify-content-between align-items-center">
             <div className="btn-group">
               <button type="button" className="btn btn-sm btn-outline-secondary">
-                {props.insuranceScope.targetItem.name}
+                {props.productScope.targetItem.productScopeName.value}
               </button>
               <button type="button" className="btn btn-sm btn-outline-secondary">
-                {props.insuranceType.targetItem.name}
+                {props.productType.targetItem.productTypeName.value}
               </button>
             </div>
           </div>
