@@ -2,15 +2,6 @@ import React from 'react';
 import { gql, useQuery } from '@apollo/client';
 import testappolloclient from 'src/lib/testgraphql/testappolloclient';
 
-interface Sitecoredataitem {
-  data: {
-    itemresult: {
-      id: string;
-      name: string;
-    };
-  };
-}
-
 interface TestProductCardModelProps {
   showModal: boolean;
   handleClose: () => void;
@@ -43,14 +34,13 @@ export const TestProductCardModel: React.FC<TestProductCardModelProps> = ({
   return showModal ? (
     <div
       className={`modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5`}
-      tabIndex="-1"
       role="dialog"
       id="modalTour"
     >
       <div className="modal-dialog" role="document">
         <div className="modal-content rounded-4 shadow">
           <div className="modal-body p-5">
-            <h2 className="fw-bold mb-0">What's new</h2>
+            <h2 className="fw-bold mb-0">What is new</h2>
             <ul className="d-grid gap-4 my-5 list-unstyled small">
               <li className="d-flex gap-4">
                 <img

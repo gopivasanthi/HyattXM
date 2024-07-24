@@ -9,7 +9,7 @@ export interface PriceIntroFeilds {
 export type PriceIntroProps = {
   params: ComponentParams;
   fields: PriceIntroFeilds;
-}
+};
 
 export const PriceIntro = (props: PriceIntroProps): JSX.Element => {
   return (

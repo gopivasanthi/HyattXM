@@ -1,14 +1,6 @@
 import React from 'react';
-import { ComponentParams, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
 
-export interface TestProductBrandsProps {
-  rendering: ComponentRendering & { params: ComponentParams };
-  params: ComponentParams;
-}
-
-export const TestProductBrands = (props: TestProductBrandsProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-
+export const TestProductBrands = (): JSX.Element => {
   return (
     <div className="container px-4 py-5" id="custom-cards">
       <h2 className="pb-2 border-bottom">Custom cards</h2>

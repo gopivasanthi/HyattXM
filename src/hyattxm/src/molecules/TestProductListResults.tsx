@@ -2,13 +2,29 @@ import React, { useState } from 'react';
 import { gql, useQuery } from '@apollo/client';
 import customgraphqlclient from 'lib/graphql-custom/customgraphqlclient';
 import TestProductListItem from 'src/atoms/Product/TestAtoms/TestProductListItem';
+import { TestProductListItemFields } from 'src/types/Product/TestProductListing/TestProductListItemFields';
+
+interface TestProductListResultsProps {
+  selectedTypeFilter: string;
+  selectedScopeFilter: string;
+}
 
 const PRODUCT_LISTS = gql`
-   query GetProductListing($endCursor: String) {
+  query GetProductListing(
+    $endCursor: String
+    $SelectedTypeFilter: String
+    $SelectedScopeFilter: String
+  ) {
     search(
       where: {
         AND: [
           { name: "_templates", value: "{9CDA0E3B-7F23-4DE1-8501-38E460E613E4}", operator: EQ }
+          {
+            AND: [
+              { name: "insuranceType", value: $SelectedTypeFilter, operator: EQ }
+              { name: "insuranceScope", value: $SelectedScopeFilter, operator: EQ }
+            ]
+          }
           {
             AND: [{ name: "_path", value: "{EB78A095-6A72-42A0-BFB7-22019292A60A}", operator: NEQ }]
           }
@@ -31,6 +47,7 @@ const PRODUCT_LISTS = gql`
                 productTypeName: insuranceTypeName {
                   value
                 }
+                id
               }
             }
           }
@@ -55,19 +72,26 @@ const PRODUCT_LISTS = gql`
       }
     }
   }
-  
 `;
 
-export const TestProductListResults = (): JSX.Element => {
+export const TestProductListResults: React.FC<TestProductListResultsProps> = ({
+  selectedTypeFilter,
+  selectedScopeFilter,
+}): JSX.Element => {
   const { loading, error, data, fetchMore } = useQuery(PRODUCT_LISTS, {
     client: customgraphqlclient,
+    variables: {
+      endCursor: null,
+      SelectedTypeFilter: selectedTypeFilter || '',
+      SelectedScopeFilter: selectedScopeFilter || '',
+    },
   });
   const [pageHistory, setPageHistory] = useState<string[]>([]);
   if (loading) return <p>Loading data....</p>;
   if (error) return <p>Error: {error.message}</p>;
   if (!data) return <p>Not data found!</p>;
   const { pageInfo, results } = data.search;
-  console.log(results);
+
   const handleNextPage = () => {
     if (pageInfo.hasNext) {
       fetchMore({
@@ -107,9 +131,12 @@ export const TestProductListResults = (): JSX.Element => {
     <div className="container">
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         {results &&
-          results.map((resultitem, resultindex) => (
-            <TestProductListItem key={`resultitem-${resultindex}`} {...resultitem} />
-          ))}
+          results.map(
+            (
+              resultitem: React.JSX.IntrinsicAttributes & TestProductListItemFields,
+              resultindex: number
+            ) => <TestProductListItem key={`resultitem-${resultindex}`} {...resultitem} />
+          )}
       </div>
       <div className="pagination-controls">
         <button onClick={handlePreviousPage} disabled={pageHistory.length < 1}>

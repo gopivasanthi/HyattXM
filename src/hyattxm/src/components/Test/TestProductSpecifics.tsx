@@ -2,6 +2,7 @@ import React from 'react';
 import { gql, useQuery } from '@apollo/client';
 import customgraphqlclient from 'src/lib/graphql-custom/customgraphqlclient';
 import TestProductSpecList from 'src/molecules/Product/TestProductSpecList';
+import { ProductCardSpecificsFields } from 'src/types/Product/ProductCard/ProductCardSpecificsFields';
 
 const PRODUCT_SPECIFICS_QUERY = gql`
   query GetProductSpecifics($brandName: String!) {
@@ -69,18 +70,20 @@ export const TestProductSpecifics: React.FC<ProductSpecificsProps> = ({
   return showModal ? (
     <div
       className="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5"
-      tabIndex="-1"
       role="dialog"
       id="modalTour"
     >
       <div className="modal-dialog" role="document">
         <div className="modal-content rounded-4 shadow">
           <div className="modal-body p-5 text-dark">
-            <h2 className="fw-bold mb-0">What's new</h2>
+            <h2 className="fw-bold mb-0">What is new</h2>
             {data.search.results &&
-              data.search.results.map((resultitem, resultindex) => (
-                <TestProductSpecList key={`resultitem-${resultindex}`} {...resultitem} />
-              ))}
+              data.search.results.map(
+                (
+                  resultitem: React.JSX.IntrinsicAttributes & ProductCardSpecificsFields,
+                  resultindex: number
+                ) => <TestProductSpecList key={`resultitem-${resultindex}`} {...resultitem} />
+              )}
 
             <button
               type="button"

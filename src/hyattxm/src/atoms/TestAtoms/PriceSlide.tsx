@@ -5,8 +5,8 @@ export interface PriceFeature {
   PriceFeatureText: Field<string>;
 }
 
-export interface PriceFeatureFields{
-  fields:PriceFeature;
+export interface PriceFeatureFields {
+  fields: PriceFeature;
 }
 
 export interface PriceSlideFields {
@@ -25,9 +25,9 @@ export type PriceSlideProps = {
 };
 
 export const PriceSlide = (props: PriceSlideProps): JSX.Element => {
-  const divstyle = props.parentIndex > 1 ? "border-primary" : "";
-  const cardstyle = props.parentIndex > 1 ? "text-bg-primary border-primary" : "";
-  const buttonStyle =  props.parentIndex > 0 ? "btn-primary" : "btn-outline-primary";
+  const divstyle = props.parentIndex > 1 ? 'border-primary' : '';
+  const cardstyle = props.parentIndex > 1 ? 'text-bg-primary border-primary' : '';
+  const buttonStyle = props.parentIndex > 0 ? 'btn-primary' : 'btn-outline-primary';
   return (
     <div className="col">
       <div className={`card mb-4 rounded-3 shadow-sm ${divstyle}`}>

@@ -2,14 +2,11 @@ import React from 'react';
 import { gql, useQuery } from '@apollo/client';
 import customgraphqlclient from 'src/lib/graphql-custom/customgraphqlclient';
 import ProductSpecList from 'src/molecules/Product/ProductSpecList';
+import { ProductCardSpecificsFields } from 'src/types/Product/ProductCard/ProductCardSpecificsFields';
 
 const PRODUCT_SPECIFICS_QUERY = gql`
-  query GetProductSpecifics($ProductName:String!) {
-    search(
-      where: {
-        AND: [{ name: "_name", value: $ProductName, operator: EQ }]
-      }
-    ) {
+  query GetProductSpecifics($ProductName: String!) {
+    search(where: { AND: [{ name: "_name", value: $ProductName, operator: EQ }] }) {
       results {
         ... on ProductBrandCard {
           name
@@ -91,10 +88,14 @@ interface ProductSpecificsProps {
   ProductName: string;
 }
 
-export const ProductSpecifics: React.FC<ProductSpecificsProps> = ({ showModal, handleClose, ProductName }) => {
+export const ProductSpecifics: React.FC<ProductSpecificsProps> = ({
+  showModal,
+  handleClose,
+  ProductName,
+}) => {
   const { loading, error, data } = useQuery(PRODUCT_SPECIFICS_QUERY, {
     client: customgraphqlclient,
-    variables: { ProductName }
+    variables: { ProductName },
   });
   if (loading) return <p>Loading data....</p>;
   if (error) return <p>Error: {error.message}</p>;
@@ -103,16 +104,19 @@ export const ProductSpecifics: React.FC<ProductSpecificsProps> = ({ showModal, h
   return showModal ? (
     <div
       className="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5"
-      tabIndex="-1"
       role="dialog"
       id="modalTour"
     >
       <div className="modal-dialog" role="document">
         <div className="modal-content rounded-4 shadow">
           <div className="modal-body p-5">
-            {data.search.results && data.search.results.map((resultitem,resultindex) => (
-              <ProductSpecList key={`resultitem-${resultindex}`} {...resultitem} />
-            ))}
+            {data.search.results &&
+              data.search.results.map(
+                (
+                  resultitem: React.JSX.IntrinsicAttributes & ProductCardSpecificsFields,
+                  resultindex: number
+                ) => <ProductSpecList key={`resultitem-${resultindex}`} {...resultitem} />
+              )}
             <button
               type="button"
               className="btn btn-lg btn-primary mt-5 w-100"

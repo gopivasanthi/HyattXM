@@ -42,7 +42,7 @@ const PRODUCT_LISTS = gql`
 
 export const Default = (): JSX.Element => {
   const ProductTemplateId = '{9CDA0E3B-7F23-4DE1-8501-38E460E613E4}';
-  const [after, setAfter] = useState<string | null>(null);
+  const [after] = useState<string | null>(null);
 
   const { data, error, loading, fetchMore } = useQuery(PRODUCT_LISTS, {
     client: customgraphqlclient,

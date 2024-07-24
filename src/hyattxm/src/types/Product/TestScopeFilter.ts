@@ -1,5 +1,5 @@
-export interface TestScopeFilter{
-    scopeName:{
-        value:string;
-    }
-};
+export interface TestScopeFilter {
+  scopeName: {
+    value: string;
+  };
+}

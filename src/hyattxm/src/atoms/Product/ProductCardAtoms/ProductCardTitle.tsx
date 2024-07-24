@@ -23,7 +23,11 @@ export const ProductCardTitle = (props: ProductCardFields): JSX.Element => {
         <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" onClick={handleOpen}>
           {props.productCardTitle.value}
         </h3>
-        <ProductSpecifics handleClose={handleClose} ProductName={props.productCardName} showModal={showModal} />
+        <ProductSpecifics
+          handleClose={handleClose}
+          ProductName={props.productCardName}
+          showModal={showModal}
+        />
       </div>
     );
   }

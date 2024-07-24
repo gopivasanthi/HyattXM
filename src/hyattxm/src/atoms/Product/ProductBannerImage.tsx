@@ -10,7 +10,7 @@ export interface BannerImageFields {
 export type ProductBannerImageProps = {
   params: ComponentParams;
   fields: BannerImageFields;
-}
+};
 
 export const ProductBannerImage = (props: ProductBannerImageProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;

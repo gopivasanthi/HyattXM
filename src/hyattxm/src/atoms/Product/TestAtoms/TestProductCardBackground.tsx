@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 import { TestProductCardFields } from 'src/types/TestProductCardFields';
-import TestProductCardModel from './TestProductCardModel';
 import { TestProductSpecifics } from 'components/Test/TestProductSpecifics';
 
 export const TestProductCardBackground = (props: TestProductCardFields): JSX.Element => {
@@ -25,7 +24,11 @@ export const TestProductCardBackground = (props: TestProductCardFields): JSX.Ele
       <button className="btn btn-primary" onClick={handleOpen}>
         {props.productCardTitle.value}
       </button>
-      <TestProductSpecifics showModal={showModal} brandName={props.productCardName} handleClose={handleClose} />
+      <TestProductSpecifics
+        showModal={showModal}
+        brandName={props.productCardName}
+        handleClose={handleClose}
+      />
     </div>
   );
 };

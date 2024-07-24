@@ -1,9 +1,6 @@
 import React from 'react';
-import { ComponentParams, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
 
-export type TestProductSpeficiationCardFields = {};
-
-export const Default = (props: TestProductSpeficiationCardFields): JSX.Element => {
+export const Default = (): JSX.Element => {
   return (
     <div className="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
       <div className="list-group">

@@ -12,7 +12,7 @@ export const ProductSpecListItem = (props: SpecificsDetailFields): JSX.Element =
         src={props.productspecicon.jsonValue.value.src}
         alt={props.productspecicon.jsonValue.value.alt}
       />
-      <div className='text-dark'>
+      <div className="text-dark">
         <h5 className="mb-0">{props.productspectitle.value}</h5>
         {props.productspectext.value}
       </div>

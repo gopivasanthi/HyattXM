@@ -2,7 +2,9 @@ import React from 'react';
 
 import { TestProductCardHighlightsFields } from 'src/types/TestProductCardHighlightsFields';
 
-export const TestProductCardPrimaryHighlights = (props: TestProductCardHighlightsFields): JSX.Element => {
+export const TestProductCardPrimaryHighlights = (
+  props: TestProductCardHighlightsFields
+): JSX.Element => {
   return (
     <li className="me-auto">
       <img

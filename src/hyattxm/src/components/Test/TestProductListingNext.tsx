@@ -6,7 +6,7 @@ import TestSearchFilters from 'src/molecules/Product/TestSearchFilters';
 import { TestSearchFiltersProps } from 'src/types/Product/TestSearchFiltersProps';
 
 const PRODUCT_LISTING_QUERY = gql`
-   query GetProductListing($endCursor: String) {
+  query GetProductListing($endCursor: String) {
     search(
       where: {
         AND: [
@@ -56,44 +56,40 @@ const PRODUCT_LISTING_QUERY = gql`
         hasNext
       }
     }
-  searchProductType:search(where:{ 
-        AND: 
-        [
+    searchProductType: search(
+      where: {
+        AND: [
           { name: "_templates", value: "{9E3271F8-7BA8-43D8-8AA8-A250A6AF7B28}", operator: EQ }
           { name: "_path", value: "{62698DB7-FCD3-4100-BC09-8F658470A70A}", operator: NEQ }
-        ] 
-  }){
-    
-      results {
-       ... on ProductType{
-        insuranceTypeName{
-          value
-        }
-        
+        ]
       }
+    ) {
+      results {
+        ... on ProductType {
+          insuranceTypeName {
+            value
+          }
+        }
       }
     }
-    searchProductScope:search(where:{ 
-        AND: 
-        [
+    searchProductScope: search(
+      where: {
+        AND: [
           { name: "_templates", value: "{4CCAE68F-39AD-4A49-A1A8-50DDFD804574}", operator: EQ }
           { name: "_path", value: "{83BA7AE2-2EFD-4420-958D-79FA38CBDF24}", operator: NEQ }
-        ] 
-  }){
-    
+        ]
+      }
+    ) {
       results {
-        ... on ProductScope{
-          scopeName{
+        ... on ProductScope {
+          scopeName {
             value
           }
         }
       }
     }
   }
-  
 `;
-
-
 
 export const Default = (): JSX.Element => {
   const { loading, error, data, fetchMore } = useQuery(PRODUCT_LISTING_QUERY, {
@@ -105,10 +101,13 @@ export const Default = (): JSX.Element => {
   if (!data) return <p>Not data found!</p>;
   const { pageInfo, results } = data.search;
 
-  const FiltersData : TestSearchFiltersProps = {
-    searchProductScope : data.searchProductScope,
-    searchProductType : data.searchProductType 
-  }
+  const FiltersData: TestSearchFiltersProps = {
+    searchProductScope: data.searchProductScope,
+    searchProductType: data.searchProductType,
+    onCheckBoxSelect: function (): void {
+      console.log('do nothing');
+    },
+  };
   const handleNextPage = () => {
     if (pageInfo.hasNext) {
       fetchMore({

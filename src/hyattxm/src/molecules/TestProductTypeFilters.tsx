@@ -3,6 +3,7 @@ import gql from 'graphql-tag';
 import customgraphqlclient from 'lib/graphql-custom/customgraphqlclient';
 import React from 'react';
 import TestFilterItem from 'src/atoms/Product/TestAtoms/TestFilterItem';
+import { TestTypeItemFields } from 'src/types/TestTypeItemFields';
 
 const PRODUCTS_FILTERS = gql`
   query GetProductFilters {
@@ -19,12 +20,21 @@ const PRODUCTS_FILTERS = gql`
           insuranceTypeName {
             value
           }
+          id
+          template {
+            name
+          }
         }
       }
     }
   }
 `;
-export const TestProductTypeFilters = (): JSX.Element => {
+interface TestProductTypeFiltersProps {
+  onCheckBoxSelect: (event: React.ChangeEvent<HTMLInputElement>) => void;
+}
+export const TestProductTypeFilters: React.FC<TestProductTypeFiltersProps> = ({
+  onCheckBoxSelect,
+}): JSX.Element => {
   const { loading, error, data } = useQuery(PRODUCTS_FILTERS, {
     client: customgraphqlclient,
   });
@@ -32,18 +42,21 @@ export const TestProductTypeFilters = (): JSX.Element => {
   if (error) return <p>Error: {error.message}</p>;
   if (!data) return <p>Not data found!</p>;
   const { results } = data.searchProductType;
-  console.log(results);
-
   return (
     <div className="filter-group">
       <h6>Insurance Type</h6>
       {results &&
-        results.map((typeItem, typeIndex) => (
-          <TestFilterItem
-            key={`typeItem-${typeIndex}`}
-            filterIdentifier={typeItem.insuranceTypeName.value}
-          />
-        ))}
+        results.map(
+          (typeItem: React.JSX.IntrinsicAttributes & TestTypeItemFields, typeIndex: number) => (
+            <TestFilterItem
+              key={`typeItem-${typeIndex}`}
+              filterItemIdentifier={typeItem.template.name}
+              filterItemIdentifierValue={typeItem.id}
+              filterIdentifier={typeItem.insuranceTypeName.value}
+              onCheckBoxSelect={(event) => onCheckBoxSelect(event)}
+            />
+          )
+        )}
     </div>
   );
 };

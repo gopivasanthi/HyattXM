@@ -2,7 +2,6 @@ import React from 'react';
 import TestFilterItem from 'src/atoms/Product/TestAtoms/TestFilterItem';
 import { TestSearchFiltersProps } from 'src/types/Product/TestSearchFiltersProps';
 
-
 export const TestSearchFilters = (props: TestSearchFiltersProps): JSX.Element => {
   return (
     <div className="filters">
@@ -15,6 +14,9 @@ export const TestSearchFilters = (props: TestSearchFiltersProps): JSX.Element =>
             <TestFilterItem
               key={`scopeitem-${scopeindex}`}
               filterIdentifier={scopeitem.scopeName.value}
+              filterItemIdentifier=""
+              filterItemIdentifierValue=""
+              onCheckBoxSelect={(event) => props.onCheckBoxSelect(event)}
             />
           ))}
       </div>
@@ -25,6 +27,9 @@ export const TestSearchFilters = (props: TestSearchFiltersProps): JSX.Element =>
             <TestFilterItem
               key={`typeitem-${typeindex}`}
               filterIdentifier={typeitem.insuranceTypeName.value}
+              filterItemIdentifier=""
+              filterItemIdentifierValue=""
+              onCheckBoxSelect={(event) => props.onCheckBoxSelect(event)}
             />
           ))}
       </div>

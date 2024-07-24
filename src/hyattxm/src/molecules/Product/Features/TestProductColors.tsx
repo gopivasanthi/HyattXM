@@ -1,14 +1,6 @@
 import React from 'react';
-import { ComponentParams, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
 
-export interface TestProductColorsProps {
-  rendering: ComponentRendering & { params: ComponentParams };
-  params: ComponentParams;
-}
-
-export const TestProductColors = (props: TestProductColorsProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-
+export const TestProductColors = (): JSX.Element => {
   return (
     <div className="container marketing">
       {/* Three columns of text below the carousel */}
@@ -54,8 +46,8 @@ export const TestProductColors = (props: TestProductColorsProps): JSX.Element =>
           </svg>
           <h2 className="fw-normal">Heading</h2>
           <p>
-            Another exciting bit of representative placeholder content. This time, we've moved on to
-            the second column.
+            Another exciting bit of representative placeholder content. This time, we have moved on
+            to the second column.
           </p>
           <p>
             <a className="btn btn-secondary" href="#">

@@ -1,5 +1,5 @@
-export interface TestTypeFilter{
-    insuranceTypeName:{
-        value:string;
-    }
-};
+export interface TestTypeFilter {
+  insuranceTypeName: {
+    value: string;
+  };
+}

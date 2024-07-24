@@ -1,14 +1,6 @@
 import React from 'react';
-import { ComponentParams, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
 
-export interface TestProductSpecificationsProps {
-  rendering: ComponentRendering & { params: ComponentParams };
-  params: ComponentParams;
-}
-
-export const TestProductSpecifications = (props: TestProductSpecificationsProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-
+export const TestProductSpecifications = (): JSX.Element => {
   return (
     <div className="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
       <div className="list-group">

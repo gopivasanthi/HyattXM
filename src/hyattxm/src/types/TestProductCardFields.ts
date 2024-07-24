@@ -1,7 +1,7 @@
 import { TestProductCardHighlightsFields } from './TestProductCardHighlightsFields';
 
 export interface TestProductCardFields {
-  productCardName:string;
+  productCardName: string;
   productCardTitle: {
     value: string;
   };

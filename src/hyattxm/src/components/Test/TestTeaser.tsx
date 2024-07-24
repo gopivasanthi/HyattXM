@@ -20,7 +20,6 @@ export const Default = (props: TestTeaserProps): JSX.Element => {
   props.fields.ImageWidth = '700';
   props.fields.ImageHeight = '500';
 
-
   return (
     <div className="container col-xxl-8 px-4 py-5">
       <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
