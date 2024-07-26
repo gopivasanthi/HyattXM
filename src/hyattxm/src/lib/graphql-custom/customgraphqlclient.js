@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client';
 
 const customgraphqlclient = new ApolloClient({
-  uri: 'https://xmcloudcm.localhost/sitecore/api/graph/edge?sc_apikey={22FB2B85-3683-4D83-BAC5-3B7DC32C1BF4}',
+  uri: 'https://xmc-altudo1-xmcupskilli0bbc-practiceenv1.sitecorecloud.io/sitecore/api/graph/edge/?sc_apikey={41338846-215D-4374-8A76-70E1A45D09CA}',
   cache: new InMemoryCache(),
 });
 

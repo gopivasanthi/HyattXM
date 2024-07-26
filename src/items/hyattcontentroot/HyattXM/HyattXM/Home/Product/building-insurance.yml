@@ -31,17 +31,17 @@ Languages:
       Value: "{91C6DEE7-CA08-4FDC-84A9-82895933F19C}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b9ea8c00-afc4-4795-aaee-84d3621e9707"
+      Value: "52cae167-f642-495c-9949-9a3cd65b6ca0"
     - ID: "b567815e-96eb-49f8-9ddb-1592fa4a4632"
       Hint: InsuranceType
-      Value: "{E8282D8D-B8B4-4645-9F75-4C67817B3E75}"
+      Value: "{B393E388-8368-441E-AA72-CB9C0A975777}"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\gopi@altudo.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240717T054557Z
+      Value: 20240723T212431Z
     - ID: "ebc6b8b5-9ec1-496b-b29d-605b8d34c738"
       Hint: Content
       Value: |
