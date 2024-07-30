@@ -5,11 +5,15 @@ import ProductListItemCard from 'src/atoms/Product/Listing/ProductListItemCard';
 import { ProductListItemCardFields } from 'src/types/Product/Listing/ProductListItemCardFields';
 
 const PRODUCT_LISTING_QUERY = gql`
-  query GetProductListing($endCursor: String) {
+  query GetProductListing($endCursor: String, $SelectedTypeFilter: String, $SelectedScopeFilter:String) {
     search(
       where: {
         AND: [
           { name: "_templates", value: "{9CDA0E3B-7F23-4DE1-8501-38E460E613E4}", operator: EQ }
+          { AND: [
+            {name:"insuranceType",value:$SelectedTypeFilter,operator:EQ}
+            {name:"insuranceScope",value:$SelectedScopeFilter,operator:EQ}
+          ] }
           {
             AND: [{ name: "_path", value: "{EB78A095-6A72-42A0-BFB7-22019292A60A}", operator: NEQ }]
           }
@@ -18,11 +22,6 @@ const PRODUCT_LISTING_QUERY = gql`
       first: 3
       after: $endCursor
     ) {
-      total
-      pageInfo {
-        hasNext
-        endCursor
-      }
       results {
         ... on HyattProductDetailPage {
           productDetailPageUrl: url {
@@ -37,6 +36,7 @@ const PRODUCT_LISTING_QUERY = gql`
                 productTypeName: insuranceTypeName {
                   value
                 }
+                id
               }
             }
           }
@@ -55,6 +55,10 @@ const PRODUCT_LISTING_QUERY = gql`
           }
         }
       }
+      pageInfo {
+        endCursor
+        hasNext
+      }
     }
   }
 `;
@@ -69,8 +73,8 @@ export const ProductList: React.FC<ProductListProps> = ({selectedScopeFilter, se
     client: customgraphqlclient,
     variables:{
       endCursor:null,
+      SelectedTypeFilter:selectedTypeFilter,
       SelectedScopeFilter:selectedScopeFilter,
-      SelectedTypeFilter:selectedTypeFilter
     }
   });
   const [pageHistory, setPageHistory] = useState<string[]>([]);
@@ -85,8 +89,8 @@ export const ProductList: React.FC<ProductListProps> = ({selectedScopeFilter, se
       fetchMore({
         variables: {
           endCursor: pageInfo.endCursor,
+          SelectedTypeFilter:selectedTypeFilter,
           SelectedScopeFilter:selectedScopeFilter,
-          SelectedTypeFilter:selectedTypeFilter
         },
         updateQuery: (previousResult, { fetchMoreResult }) => {
           if (!fetchMoreResult) return previousResult;
