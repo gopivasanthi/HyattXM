@@ -1,8 +1,9 @@
-export interface ProductListTypeFields{
-    insuranceTypeName:{
-        value:string;
-    }
-    id:string;
-    template:{
-        name:string;
-    }}
+export interface ProductListTypeFields {
+  insuranceTypeName: {
+    value: string;
+  };
+  id: string;
+  template: {
+    name: string;
+  };
+}
